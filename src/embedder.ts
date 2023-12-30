@@ -95,7 +95,6 @@ export class Embedder {
     }
 
     if (!embed) return
-    console.log(embed)
     await message.channel.send({
       embeds: [embed],
       reply: {
