@@ -1,0 +1,51 @@
+{
+  "name": "discord-tweet-embedder",
+  "version": "0.0.0",
+  "description": "Post Embed when you post a tweet URL to Discord.",
+  "homepage": "https://github.com/tomacheese/discord-tweet-embedder",
+  "bugs": {
+    "url": "https://github.com/tomacheese/discord-tweet-embedder/issues"
+  },
+  "license": "MIT",
+  "author": "Tomachi <tomachi@tomacheese.com>",
+  "private": true,
+  "main": "dist/main.js",
+  "repository": {
+    "url": "git@github.com:tomacheese/discord-tweet-embedder.git",
+    "type": "git"
+  },
+  "scripts": {
+    "fix": "run-z fix:prettier fix:eslint",
+    "start": "tsx ./src/main.ts",
+    "fix:eslint": "eslint . --ext ts,tsx --fix",
+    "fix:prettier": "prettier --write src",
+    "lint:prettier": "prettier --check src",
+    "dev": "tsx watch ./src/main.ts",
+    "lint:eslint": "eslint . --ext ts,tsx",
+    "lint:tsc": "tsc",
+    "lint": "run-z lint:prettier,lint:eslint,lint:tsc",
+    "generate-schema": "typescript-json-schema --required src/config.ts ConfigInterface -o schema/Configuration.json"
+  },
+  "devDependencies": {
+    "@book000/node-utils": "1.12.12",
+    "@book000/twitterts": "0.58.0",
+    "@types/node": "20.10.6",
+    "@typescript-eslint/eslint-plugin": "6.16.0",
+    "@typescript-eslint/parser": "6.16.0",
+    "discord.js": "14.14.1",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-n": "16.6.0",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-unicorn": "50.0.1",
+    "prettier": "3.1.1",
+    "run-z": "2.0.0",
+    "tsx": "4.7.0",
+    "twitter-d": "0.6.0",
+    "typescript": "5.3.3",
+    "typescript-json-schema": "0.62.0"
+  },
+  "packageManager": "pnpm@8.10.5"
+}
