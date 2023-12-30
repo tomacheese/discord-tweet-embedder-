@@ -1,0 +1,45 @@
+{
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+          }
+        },
+        "git.branchProtection": [
+          "main",
+          "master"
+        ]
+      },
+      "extensions": [
+        "esbenp.prettier-vscode"
+      ]
+    },
+    "extensions": [
+      "esbenp.prettier-vscode"
+    ],
+    "settings": {
+      "editor.formatOnSave": true,
+      "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": false
+        }
+      },
+      "git.branchProtection": [
+        "main",
+        "master"
+      ]
+    }
+  },
+  "otherPortAttributes": {
+    "onAutoForward": "silent"
+  },
+  "waitFor": "postCreateCommand",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+  "name": "discord-tweet-embedder",
+  "postCreateCommand": "pnpm install"
+}
