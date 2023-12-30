@@ -1,6 +1,6 @@
 {
   "name": "discord-tweet-embedder",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Post Embed when you post a tweet URL to Discord.",
   "homepage": "https://github.com/tomacheese/discord-tweet-embedder",
   "bugs": {
