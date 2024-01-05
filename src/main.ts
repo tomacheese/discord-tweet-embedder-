@@ -32,10 +32,30 @@ async function main() {
   const discord = new Discord(config, twitter)
   process.once('SIGINT', () => {
     logger.info('👋 SIGINT signal received.')
-    discord.close()
+    twitter.close().then(() => {
+      logger.info('🔑 Logged out from Twitter.')
 
-    process.exit(0)
+      discord.close()
+
+      process.exit(0)
+    })
   })
+
+  // 1日毎に再起動する
+  setTimeout(
+    () => {
+      logger.info('👋 Restarting...')
+      twitter.close().then(() => {
+        logger.info('🔑 Logged out from Twitter.')
+
+        discord.close()
+
+        // eslint-disable-next-line unicorn/no-process-exit
+        process.exit(0)
+      })
+    },
+    1000 * 60 * 60 * 24
+  )
 }
 
 ;(async () => {
