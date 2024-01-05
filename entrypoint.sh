@@ -11,9 +11,12 @@ while :
 do
   pnpm start
 
-  # wait 10 minutes before restarting
-  echo "Waiting 10 minutes before restarting..."
-  sleep 600
+  if [ $? -eq 0 ]; then
+    break
+  fi
+
+  echo "Restarting in 5 seconds..."
+  sleep 5
 done
 
 kill -9 "$(pgrep -f "Xvfb" | awk '{print $2}')"
