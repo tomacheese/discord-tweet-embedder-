@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.17
     version: 1.12.17
   '@book000/twitterts':
-    specifier: 0.58.12
-    version: 0.58.12
+    specifier: 0.58.14
+    version: 0.58.14
   '@types/node':
     specifier: 20.10.6
     version: 20.10.6
@@ -102,21 +102,6 @@ packages:
       js-yaml: 4.1.0
     dev: true
 
-  /@book000/node-utils@1.12.15:
-    resolution: {integrity: sha512-b3vQu/01MzF0YcXQqg9X3cLreFhIJb8F37GsbSYAx+BrGEb4HFXHVUfCErWlf/WlPLXTfW5BBMrCcL2jsNEUXA==}
-    dependencies:
-      axios: 1.6.4
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.2.0
-      logform: 2.6.0
-      moment-timezone: 0.5.44
-      winston: 3.11.0
-      winston-daily-rotate-file: 4.7.1(winston@3.11.0)
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
   /@book000/node-utils@1.12.17:
     resolution: {integrity: sha512-lj/Is5TE2CJQcA9EfOMLAoyshQT+YVMIegzS16VJe1PyNp4BrI7caMm3mJKdIX5WT3j6bDK+Ni2zjVIX7jftDQ==}
     dependencies:
@@ -132,10 +117,10 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.58.12:
-    resolution: {integrity: sha512-MHuR8wEl+1fiFQ8CbSwR3pzytP7apbQ5m/UGhApDU9qR5CLW7Js3pRj1bdK4WLi/6SzbKX3rG0SOTCcZpJcP3w==}
+  /@book000/twitterts@0.58.14:
+    resolution: {integrity: sha512-b8u/sFSUaewp716OvP0fxjhhLnqj6ySkDK12Uborq+bcSQcBBY9MKHhfOX10xjzHF27wOIfIvI2Sjy7dNrUMiA==}
     dependencies:
-      '@book000/node-utils': 1.12.15
+      '@book000/node-utils': 1.12.17
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.1
       mysql2: 3.6.5
@@ -250,7 +235,7 @@ packages:
       '@vladfrangu/async_event_emitter': 2.2.2
       discord-api-types: 0.37.61
       tslib: 2.6.2
-      ws: 8.15.1
+      ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -1055,16 +1040,6 @@ packages:
   /available-typed-arrays@1.0.5:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
-    dev: true
-
-  /axios@1.6.4:
-    resolution: {integrity: sha512-heJnIs6N4aa1eSthhN9M5ioILu8Wi8vmQW9iHQ9NUvfkJb0lEEDUiIdQNAuBtfUt3FxReaKdpQA5DbmMOqzF/A==}
-    dependencies:
-      follow-redirects: 1.15.4
-      form-data: 4.0.0
-      proxy-from-env: 1.1.0
-    transitivePeerDependencies:
-      - debug
     dev: true
 
   /axios@1.6.5:
@@ -4228,19 +4203,6 @@ packages:
 
   /ws@8.14.2:
     resolution: {integrity: sha512-wEBG1ftX4jcglPxgFCMJmZ2PLtSbJ2Peg6TmpJFTbe9GZYOQCDPdMYu/Tm0/bGZkw8paZnJY45J4K2PZrLYq8g==}
-    engines: {node: '>=10.0.0'}
-    peerDependencies:
-      bufferutil: ^4.0.1
-      utf-8-validate: '>=5.0.2'
-    peerDependenciesMeta:
-      bufferutil:
-        optional: true
-      utf-8-validate:
-        optional: true
-    dev: true
-
-  /ws@8.15.1:
-    resolution: {integrity: sha512-W5OZiCjXEmk0yZ66ZN82beM5Sz7l7coYxpRkzS+p9PP+ToQry8szKh+61eNktr7EA9DOwvFGhfC605jDHbP6QQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
