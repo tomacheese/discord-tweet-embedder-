@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.18
     version: 1.12.18
   '@book000/twitterts':
-    specifier: 0.58.15
-    version: 0.58.15
+    specifier: 0.58.17
+    version: 0.58.17
   '@types/node':
     specifier: 20.10.7
     version: 20.10.7
@@ -117,17 +117,17 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.58.15:
-    resolution: {integrity: sha512-P8yX5N4e3ODtusY5ZbikwnxjhlAoyY0H0SjitpbjjPm64mHS75pTwaoR6IBVQBjFUGwL2hmtLsiYSOVqxrKSBQ==}
+  /@book000/twitterts@0.58.17:
+    resolution: {integrity: sha512-eYqgkE4qwYHS1w4y0lMHiI+kMbq97lBOBUEL7BBSuB+Qy0BrL2U3KsxU5roKx4UzysKzejHgVMQ8gWch7TlQIA==}
     dependencies:
       '@book000/node-utils': 1.12.18
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.1
-      mysql2: 3.6.5
+      mysql2: 3.7.0
       otplib: 12.0.1
       puppeteer-core: 21.7.0
       twitter-d: 0.6.0
-      typeorm: 0.3.19(mysql2@3.6.5)
+      typeorm: 0.3.19(mysql2@3.7.0)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.19)
     transitivePeerDependencies:
       - '@google-cloud/spanner'
@@ -2886,8 +2886,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /mysql2@3.6.5:
-    resolution: {integrity: sha512-pS/KqIb0xlXmtmqEuTvBXTmLoQ5LmAz5NW/r8UyQ1ldvnprNEj3P9GbmuQQ2J0A4LO+ynotGi6TbscPa8OUb+w==}
+  /mysql2@3.7.0:
+    resolution: {integrity: sha512-c45jA3Jc1X8yJKzrWu1GpplBKGwv/wIV6ITZTlCSY7npF2YfJR+6nMP5e+NTQhUeJPSyOQAbGDCGEHbAl8HN9w==}
     engines: {node: '>= 8.0'}
     dependencies:
       denque: 2.1.0
@@ -3917,10 +3917,10 @@ packages:
     peerDependencies:
       typeorm: ^0.2.0 || ^0.3.0
     dependencies:
-      typeorm: 0.3.19(mysql2@3.6.5)
+      typeorm: 0.3.19(mysql2@3.7.0)
     dev: true
 
-  /typeorm@0.3.19(mysql2@3.6.5):
+  /typeorm@0.3.19(mysql2@3.7.0):
     resolution: {integrity: sha512-OGelrY5qEoAU80mR1iyvmUHiKCPUydL6xp6bebXzS7jyv/X70Gp/jBWRAfF4qGOfy2A7orMiGRfwsBUNbEL65g==}
     engines: {node: '>= 12.9.0'}
     hasBin: true
@@ -3988,7 +3988,7 @@ packages:
       dotenv: 16.3.1
       glob: 10.3.10
       mkdirp: 2.1.6
-      mysql2: 3.6.5
+      mysql2: 3.7.0
       reflect-metadata: 0.1.14
       sha.js: 2.4.11
       tslib: 2.6.2
