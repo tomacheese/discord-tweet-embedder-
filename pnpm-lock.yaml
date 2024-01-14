@@ -12,8 +12,8 @@ devDependencies:
     specifier: 0.58.23
     version: 0.58.23
   '@types/node':
-    specifier: 20.10.8
-    version: 20.10.8
+    specifier: 20.11.0
+    version: 20.11.0
   '@typescript-eslint/eslint-plugin':
     specifier: 6.18.1
     version: 6.18.1(@typescript-eslint/parser@6.18.1)(eslint@8.56.0)(typescript@5.3.3)
@@ -680,7 +680,7 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: true
 
   /@types/json-schema@7.0.15:
@@ -703,8 +703,8 @@ packages:
     resolution: {integrity: sha512-AfDKv5fWd9XStaEuqFa6PYcM8FgTqxVMsP4BPk60emeB9YX+pp2P0zZ8nU1BQg8hyPGFrMt7MGMRMis8IrcPyg==}
     dev: true
 
-  /@types/node@20.10.8:
-    resolution: {integrity: sha512-f8nQs3cLxbAFc00vEU59yf9UyGUftkPaLGfvbVOIDdx2i1b8epBqj2aNGyP19fiyXWvlmZ7qC1XLjAzw/OKIeA==}
+  /@types/node@20.11.0:
+    resolution: {integrity: sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -728,14 +728,14 @@ packages:
   /@types/ws@8.5.9:
     resolution: {integrity: sha512-jbdrY0a8lxfdTp/+r7Z4CkycbOFN8WX+IOchLJr3juT/xzbJ8URyTVSJ/hvNdadTgM1mnedb47n+Y31GsFnQlg==}
     dependencies:
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: true
 
   /@types/yauzl@2.10.3:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.10.8
+      '@types/node': 20.11.0
     dev: true
     optional: true
 
