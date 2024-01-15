@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.22
     version: 1.12.22
   '@book000/twitterts':
-    specifier: 0.58.23
-    version: 0.58.23
+    specifier: 0.58.24
+    version: 0.58.24
   '@types/node':
     specifier: 20.11.0
     version: 20.11.0
@@ -132,8 +132,8 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.58.23:
-    resolution: {integrity: sha512-nqiK5DRA/RSpZeLO9tpkEDtw8LfqWO8z9AVnx5/KIfyINiPDsTrNsnAtDutb0jZ1ZEfcxYmVNZs5F8iJu9ww1g==}
+  /@book000/twitterts@0.58.24:
+    resolution: {integrity: sha512-5Q9ursOtVOVNRzwrKHj+Bsa3XZAMM0NwlLfO2fk1FURvni72ly/Yisk6x7kJQQlMlAdAQ/p5Id0m6NDAhXsRvw==}
     dependencies:
       '@book000/node-utils': 1.12.21
       genson-js: 0.0.8
@@ -250,7 +250,7 @@ packages:
       '@vladfrangu/async_event_emitter': 2.2.4
       discord-api-types: 0.37.61
       tslib: 2.6.2
-      ws: 8.14.2
+      ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
