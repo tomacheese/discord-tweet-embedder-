@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.28
     version: 1.12.28
   '@book000/twitterts':
-    specifier: 0.59.2
-    version: 0.59.2
+    specifier: 0.59.3
+    version: 0.59.3
   '@types/node':
     specifier: 20.11.5
     version: 20.11.5
@@ -102,8 +102,8 @@ packages:
       js-yaml: 4.1.0
     dev: true
 
-  /@book000/node-utils@1.12.23:
-    resolution: {integrity: sha512-ZiNKddDCfZm1poXley5tal182Nge7nfuAGUfZtyJywHz8O3fcY3p/NHuRovZ5T0zu7oJxuA9DO3Oy5YqXrp44w==}
+  /@book000/node-utils@1.12.27:
+    resolution: {integrity: sha512-JhdJsMiqJBtHd8AR61lnjC59GxRrBAffSQQPhFQ9hqyvtL7WlrMsZ5PSnbB0T5rDw99KcMop7qj2/h47H+M0zQ==}
     dependencies:
       axios: 1.6.5
       cycle: 1.0.3
@@ -132,17 +132,17 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.59.2:
-    resolution: {integrity: sha512-wVcJAHybUg9H3JG2KuoM5R3A9sVreBwTOzpM2+S14uQZgxWG22s+Ou6AILmUVbXJ87eQz8zJ5g87iFGNaxdn6A==}
+  /@book000/twitterts@0.59.3:
+    resolution: {integrity: sha512-zkzyVY60yAfW0z7MIRTiMfMxpvPApeV+8kLOBgcLVmfSiHVNyJOa5FtIq95TFgCejFOdiSW2v90sT8A9qaNJCg==}
     dependencies:
-      '@book000/node-utils': 1.12.23
+      '@book000/node-utils': 1.12.27
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
-      mysql2: 3.7.0
+      mysql2: 3.7.1
       otplib: 12.0.1
       puppeteer-core: 21.7.0
       twitter-d: 0.6.0
-      typeorm: 0.3.19(mysql2@3.7.0)
+      typeorm: 0.3.19(mysql2@3.7.1)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.19)
     transitivePeerDependencies:
       - '@google-cloud/spanner'
@@ -2901,8 +2901,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /mysql2@3.7.0:
-    resolution: {integrity: sha512-c45jA3Jc1X8yJKzrWu1GpplBKGwv/wIV6ITZTlCSY7npF2YfJR+6nMP5e+NTQhUeJPSyOQAbGDCGEHbAl8HN9w==}
+  /mysql2@3.7.1:
+    resolution: {integrity: sha512-4EEqYu57mnkW5+Bvp5wBebY7PpfyrmvJ3knHcmLkp8FyBu4kqgrF2GxIjsC2tbLNZWqJaL21v/MYH7bU5f03oA==}
     engines: {node: '>= 8.0'}
     dependencies:
       denque: 2.1.0
@@ -3933,10 +3933,10 @@ packages:
     peerDependencies:
       typeorm: ^0.2.0 || ^0.3.0
     dependencies:
-      typeorm: 0.3.19(mysql2@3.7.0)
+      typeorm: 0.3.19(mysql2@3.7.1)
     dev: true
 
-  /typeorm@0.3.19(mysql2@3.7.0):
+  /typeorm@0.3.19(mysql2@3.7.1):
     resolution: {integrity: sha512-OGelrY5qEoAU80mR1iyvmUHiKCPUydL6xp6bebXzS7jyv/X70Gp/jBWRAfF4qGOfy2A7orMiGRfwsBUNbEL65g==}
     engines: {node: '>= 12.9.0'}
     hasBin: true
@@ -4004,7 +4004,7 @@ packages:
       dotenv: 16.3.1
       glob: 10.3.10
       mkdirp: 2.1.6
-      mysql2: 3.7.0
+      mysql2: 3.7.1
       reflect-metadata: 0.1.14
       sha.js: 2.4.11
       tslib: 2.6.2
