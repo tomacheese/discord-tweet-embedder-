@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@book000/node-utils':
-    specifier: 1.12.34
-    version: 1.12.34
+    specifier: 1.12.36
+    version: 1.12.36
   '@book000/twitterts':
     specifier: 0.59.5
     version: 0.59.5
@@ -117,8 +117,8 @@ packages:
       - debug
     dev: true
 
-  /@book000/node-utils@1.12.34:
-    resolution: {integrity: sha512-e/A4hRWEsPgDRjZ1TzPBHcvLoW6S7bWMtVZHJSXEe7xG3bcPtVAr9/UHHK8n7RLQ+GEWlFWuQpBwB3sW7nm0AA==}
+  /@book000/node-utils@1.12.36:
+    resolution: {integrity: sha512-qs5qaz2wYwAn/+zcH3xU7QqGRkIw0SSpLaMf2VymNqDfF1qckYdExmlBsLsSjBS4LP94rfy5dWIdjgbE5uBGpQ==}
     dependencies:
       axios: 1.6.5
       cycle: 1.0.3
