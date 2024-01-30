@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.39
     version: 1.12.39
   '@book000/twitterts':
-    specifier: 0.59.21
-    version: 0.59.21
+    specifier: 0.59.22
+    version: 0.59.22
   '@types/node':
     specifier: 20.11.7
     version: 20.11.7
@@ -132,15 +132,15 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.59.21:
-    resolution: {integrity: sha512-7K7WvkN0UWuhHFpo7RX52mTzjXIDIl07ga8Xb1v7KSnmOj17VMfjB/yyTGgjuCltS+1whBcfMv+OOTa5DioHuQ==}
+  /@book000/twitterts@0.59.22:
+    resolution: {integrity: sha512-HHpOLIfVo6vTmAeC5YAl1U4dyUpAf3pV/72NOocdbRAyllpgIo2AsLRg1hDwiF3NfcT5o8au7U140oTSLgRrNQ==}
     dependencies:
       '@book000/node-utils': 1.12.36
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.8.0
       otplib: 12.0.1
-      puppeteer-core: 21.8.0
+      puppeteer-core: 21.9.0
       twitter-d: 0.6.0
       typeorm: 0.3.19(mysql2@3.8.0)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.19)
@@ -1187,12 +1187,12 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
-  /chromium-bidi@0.5.4(devtools-protocol@0.0.1213968):
+  /chromium-bidi@0.5.4(devtools-protocol@0.0.1232444):
     resolution: {integrity: sha512-p9CdiHl0xNh4P7oVa44zXgJJw+pvnHXFDB+tVdo25xaPLgQDVf2kQO+TDxD2fp2Evqi7vs/vGRINMzl1qJrWiw==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
-      devtools-protocol: 0.0.1213968
+      devtools-protocol: 0.0.1232444
       mitt: 3.0.1
       urlpattern-polyfill: 9.0.0
     dev: true
@@ -1428,8 +1428,8 @@ packages:
     engines: {node: '>=0.10'}
     dev: true
 
-  /devtools-protocol@0.0.1213968:
-    resolution: {integrity: sha512-o4n/beY+3CcZwFctYapjGelKptR4AuQT5gXS1Kvgbig+ArwkxK7f8wDVuD1wsoswiJWCwV6OK+Qb7vhNzNmABQ==}
+  /devtools-protocol@0.0.1232444:
+    resolution: {integrity: sha512-pM27vqEfxSxRkTMnF+XCmxSEb6duO5R+t8A9DEEJgy4Wz2RVanje2mmj99B6A3zv2r/qGfYlOvYznUhuokizmg==}
     dev: true
 
   /diff@4.0.2:
@@ -3269,15 +3269,15 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@21.8.0:
-    resolution: {integrity: sha512-lRw1zXsrFE/COEAmupE0nSF+RSOJ+3rI12ZmMydkr6yXaAvfnYAoqND+HXXiRuzB+YM3IgsWekAMhNZCJOkbTA==}
+  /puppeteer-core@21.9.0:
+    resolution: {integrity: sha512-QgowcczLAoLWlV38s3y3VuEvjJGfKU5rR6Q23GUbiGOaiQi+QpaWQ+aXdzP9LHVSUPmHdAaWhcvMztYSw3f8gQ==}
     engines: {node: '>=16.13.2'}
     dependencies:
       '@puppeteer/browsers': 1.9.1
-      chromium-bidi: 0.5.4(devtools-protocol@0.0.1213968)
+      chromium-bidi: 0.5.4(devtools-protocol@0.0.1232444)
       cross-fetch: 4.0.0
       debug: 4.3.4
-      devtools-protocol: 0.0.1213968
+      devtools-protocol: 0.0.1232444
       ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
