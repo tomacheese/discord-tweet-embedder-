@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.43
     version: 1.12.43
   '@book000/twitterts':
-    specifier: 0.59.32
-    version: 0.59.32
+    specifier: 0.59.34
+    version: 0.59.34
   '@types/node':
     specifier: 20.11.10
     version: 20.11.10
@@ -132,8 +132,8 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.59.32:
-    resolution: {integrity: sha512-pSWhhIkvGU2Z3KIEqr+QuhpuA1jFGx0G13s1WOA1en/jOtzrLDeoyJW8X24vh9UmWKfOARw7SPpwa57cSRsIhw==}
+  /@book000/twitterts@0.59.34:
+    resolution: {integrity: sha512-2cPBFhi41kOhhBOGCHfXTrFOPvgLmgP48vNdwcOC3bINKKdOmSd/JSrU6xkjywv3HavA9QOUHZOjaQlSLZ/JQg==}
     dependencies:
       '@book000/node-utils': 1.12.39
       genson-js: 0.0.8
@@ -142,8 +142,8 @@ packages:
       otplib: 12.0.1
       puppeteer-core: 21.9.0
       twitter-d: 0.6.0
-      typeorm: 0.3.19(mysql2@3.9.0)
-      typeorm-naming-strategies: 4.1.0(typeorm@0.3.19)
+      typeorm: 0.3.20(mysql2@3.9.0)
+      typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
     transitivePeerDependencies:
       - '@google-cloud/spanner'
       - '@sap/hana-client'
@@ -3328,8 +3328,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /reflect-metadata@0.1.14:
-    resolution: {integrity: sha512-ZhYeb6nRaXCfhnndflDK8qI6ZQ/YcWZCISRAWICW9XYqMUwjZM9Z0DveWX/ABN01oxSHwVxKQmxeYZSsm0jh5A==}
+  /reflect-metadata@0.2.1:
+    resolution: {integrity: sha512-i5lLI6iw9AU3Uu4szRNPPEkomnkjRTaVt9hy/bn5g/oSzekBSMeLZblcjP74AW0vBabqERLLIrz+gR8QYR54Tw==}
     dev: true
 
   /regexp-tree@0.1.27:
@@ -3939,17 +3939,17 @@ packages:
       is-typed-array: 1.1.12
     dev: true
 
-  /typeorm-naming-strategies@4.1.0(typeorm@0.3.19):
+  /typeorm-naming-strategies@4.1.0(typeorm@0.3.20):
     resolution: {integrity: sha512-vPekJXzZOTZrdDvTl1YoM+w+sUIfQHG4kZTpbFYoTsufyv9NIBRe4Q+PdzhEAFA2std3D9LZHEb1EjE9zhRpiQ==}
     peerDependencies:
       typeorm: ^0.2.0 || ^0.3.0
     dependencies:
-      typeorm: 0.3.19(mysql2@3.9.0)
+      typeorm: 0.3.20(mysql2@3.9.0)
     dev: true
 
-  /typeorm@0.3.19(mysql2@3.9.0):
-    resolution: {integrity: sha512-OGelrY5qEoAU80mR1iyvmUHiKCPUydL6xp6bebXzS7jyv/X70Gp/jBWRAfF4qGOfy2A7orMiGRfwsBUNbEL65g==}
-    engines: {node: '>= 12.9.0'}
+  /typeorm@0.3.20(mysql2@3.9.0):
+    resolution: {integrity: sha512-sJ0T08dV5eoZroaq9uPKBoNcGslHBR4E4y+EBHs//SiGbblGe7IeduP/IH4ddCcj0qp3PHwDwGnuvqEAnKlq/Q==}
+    engines: {node: '>=16.13.0'}
     hasBin: true
     peerDependencies:
       '@google-cloud/spanner': ^5.18.0
@@ -4016,7 +4016,7 @@ packages:
       glob: 10.3.10
       mkdirp: 2.1.6
       mysql2: 3.9.0
-      reflect-metadata: 0.1.14
+      reflect-metadata: 0.2.1
       sha.js: 2.4.11
       tslib: 2.6.2
       uuid: 9.0.1
