@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.45
     version: 1.12.45
   '@book000/twitterts':
-    specifier: 0.59.39
-    version: 0.59.39
+    specifier: 0.59.40
+    version: 0.59.40
   '@types/node':
     specifier: 20.11.14
     version: 20.11.14
@@ -132,17 +132,17 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.59.39:
-    resolution: {integrity: sha512-Boh6ndNv55P3TjQy+0GWKyhnzcZp04YAYORDCv2ofNbx22EWpWW59uyy6XpApqWxyXXWoFqzSi46BtjU4wXzwA==}
+  /@book000/twitterts@0.59.40:
+    resolution: {integrity: sha512-36Cx74bPNEgP3osjdSaPUghzOzmcouU4ilDpfIvEJfrTCpdN1OaLkTineVmKw6TyO7yYLCZz2avpJ6lB9v7D0g==}
     dependencies:
       '@book000/node-utils': 1.12.43
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
-      mysql2: 3.9.0
+      mysql2: 3.9.1
       otplib: 12.0.1
       puppeteer-core: 21.9.0
       twitter-d: 0.6.0
-      typeorm: 0.3.20(mysql2@3.9.0)
+      typeorm: 0.3.20(mysql2@3.9.1)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
     transitivePeerDependencies:
       - '@google-cloud/spanner'
@@ -2901,8 +2901,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /mysql2@3.9.0:
-    resolution: {integrity: sha512-yS7FtbnO9sYqUZbjaiUwflh1bJAENJ3DQ9aHEYj9G+Hi15+FP7UKaTDNe6SeXx/LpkU6coAQ6vIYQaAmsFA+qQ==}
+  /mysql2@3.9.1:
+    resolution: {integrity: sha512-3njoWAAhGBYy0tWBabqUQcLtczZUxrmmtc2vszQUekg3kTJyZ5/IeLC3Fo04u6y6Iy5Sba7pIIa2P/gs8D3ZeQ==}
     engines: {node: '>= 8.0'}
     dependencies:
       denque: 2.1.0
@@ -3934,10 +3934,10 @@ packages:
     peerDependencies:
       typeorm: ^0.2.0 || ^0.3.0
     dependencies:
-      typeorm: 0.3.20(mysql2@3.9.0)
+      typeorm: 0.3.20(mysql2@3.9.1)
     dev: true
 
-  /typeorm@0.3.20(mysql2@3.9.0):
+  /typeorm@0.3.20(mysql2@3.9.1):
     resolution: {integrity: sha512-sJ0T08dV5eoZroaq9uPKBoNcGslHBR4E4y+EBHs//SiGbblGe7IeduP/IH4ddCcj0qp3PHwDwGnuvqEAnKlq/Q==}
     engines: {node: '>=16.13.0'}
     hasBin: true
@@ -4005,7 +4005,7 @@ packages:
       dotenv: 16.4.1
       glob: 10.3.10
       mkdirp: 2.1.6
-      mysql2: 3.9.0
+      mysql2: 3.9.1
       reflect-metadata: 0.2.1
       sha.js: 2.4.11
       tslib: 2.6.2
