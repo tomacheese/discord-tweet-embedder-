@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.46
     version: 1.12.46
   '@book000/twitterts':
-    specifier: 0.59.43
-    version: 0.59.43
+    specifier: 0.59.44
+    version: 0.59.44
   '@types/node':
     specifier: 20.11.16
     version: 20.11.16
@@ -132,15 +132,15 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.59.43:
-    resolution: {integrity: sha512-zx+AecRPuNpUCAQLahWScsBu8qGbLAyRTMTQAXzHlFuUbi0rBEfOOFWpzM3LU+JXcd4qeuKll7ci1O3YYmCM2g==}
+  /@book000/twitterts@0.59.44:
+    resolution: {integrity: sha512-OvzGK8U6QebFjspzOUBgABH208FgRHo3OCNiKPiCoDcF2AJMyyv2pa2121B6MolCWocw1BltGiRh4HSakB2RcA==}
     dependencies:
       '@book000/node-utils': 1.12.43
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.1
       otplib: 12.0.1
-      puppeteer-core: 21.9.0
+      puppeteer-core: 21.10.0
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.9.1)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
@@ -1187,14 +1187,14 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
-  /chromium-bidi@0.5.4(devtools-protocol@0.0.1232444):
-    resolution: {integrity: sha512-p9CdiHl0xNh4P7oVa44zXgJJw+pvnHXFDB+tVdo25xaPLgQDVf2kQO+TDxD2fp2Evqi7vs/vGRINMzl1qJrWiw==}
+  /chromium-bidi@0.5.6(devtools-protocol@0.0.1232444):
+    resolution: {integrity: sha512-ber8smgoAs4EqSUHRb0I8fpx371ZmvsdQav8HRM9oO4fk5Ox16vQiNYXlsZkRj4FfvVL2dCef+zBFQixp+79CA==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
       devtools-protocol: 0.0.1232444
       mitt: 3.0.1
-      urlpattern-polyfill: 9.0.0
+      urlpattern-polyfill: 10.0.0
     dev: true
 
   /ci-info@4.0.0:
@@ -3265,12 +3265,12 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@21.9.0:
-    resolution: {integrity: sha512-QgowcczLAoLWlV38s3y3VuEvjJGfKU5rR6Q23GUbiGOaiQi+QpaWQ+aXdzP9LHVSUPmHdAaWhcvMztYSw3f8gQ==}
+  /puppeteer-core@21.10.0:
+    resolution: {integrity: sha512-NVaqO3K462qwMuLO4Gurs/Mau1Wss+08QgNYzF0dIqZWMvpskrt/TbxbmHU+7zMTUOvPEq/lR4BLJmjMBgBGfQ==}
     engines: {node: '>=16.13.2'}
     dependencies:
       '@puppeteer/browsers': 1.9.1
-      chromium-bidi: 0.5.4(devtools-protocol@0.0.1232444)
+      chromium-bidi: 0.5.6(devtools-protocol@0.0.1232444)
       cross-fetch: 4.0.0
       debug: 4.3.4
       devtools-protocol: 0.0.1232444
@@ -4093,8 +4093,8 @@ packages:
       punycode: 2.3.1
     dev: true
 
-  /urlpattern-polyfill@9.0.0:
-    resolution: {integrity: sha512-WHN8KDQblxd32odxeIgo83rdVDE2bvdkb86it7bMhYZwWKJz0+O0RK/eZiHYnM+zgt/U7hAHOlCQGfjjvSkw2g==}
+  /urlpattern-polyfill@10.0.0:
+    resolution: {integrity: sha512-H/A06tKD7sS1O1X2SshBVeA5FLycRpjqiBeqGKmBwBDBy28EnRjORxTNe269KSSr5un5qyWi1iL61wLxpd+ZOg==}
     dev: true
 
   /util-deprecate@1.0.2:
