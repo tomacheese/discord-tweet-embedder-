@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.54
     version: 1.12.54
   '@book000/twitterts':
-    specifier: 0.59.62
-    version: 0.59.62
+    specifier: 0.59.63
+    version: 0.59.63
   '@types/node':
     specifier: 20.11.16
     version: 20.11.16
@@ -132,15 +132,15 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.59.62:
-    resolution: {integrity: sha512-tQLBX9+xWh635XMjfrp89UqyBUYvgiJG2/X36Bl6CJpaP+WepwP9zMnkUuziZVSMOFDT8r2WF7AU8I9JRFo0UA==}
+  /@book000/twitterts@0.59.63:
+    resolution: {integrity: sha512-89cBfexnNWz+Xz5or3vnzJxeZjKCJQgbIDlhdfohn/OAkKWe6wMBq1EbZHQTsYpn1ilb7yHF8EOwGs0uSl1Fjg==}
     dependencies:
       '@book000/node-utils': 1.12.52
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.1
       otplib: 12.0.1
-      puppeteer-core: 21.11.0
+      puppeteer-core: 22.0.0
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.9.1)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
@@ -618,9 +618,9 @@ packages:
     dev: true
     optional: true
 
-  /@puppeteer/browsers@1.9.1:
-    resolution: {integrity: sha512-PuvK6xZzGhKPvlx3fpfdM2kYY3P/hB1URtK8wA7XUJ6prn6pp22zvJHu48th0SGcHL9SutbPHrFuQgfXTFobWA==}
-    engines: {node: '>=16.3.0'}
+  /@puppeteer/browsers@2.0.0:
+    resolution: {integrity: sha512-3PS82/5+tnpEaUWonjAFFvlf35QHF15xqyGd34GBa5oP5EPVfFXRsbSxIGYf1M+vZlqBZ3oxT1kRg9OYhtt8ng==}
+    engines: {node: '>=18'}
     hasBin: true
     dependencies:
       debug: 4.3.4
@@ -3279,11 +3279,11 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@21.11.0:
-    resolution: {integrity: sha512-ArbnyA3U5SGHokEvkfWjW+O8hOxV1RSJxOgriX/3A4xZRqixt9ZFHD0yPgZQF05Qj0oAqi8H/7stDorjoHY90Q==}
-    engines: {node: '>=16.13.2'}
+  /puppeteer-core@22.0.0:
+    resolution: {integrity: sha512-S3s91rLde0A86PWVeNY82h+P0fdS7CTiNWAicCVH/bIspRP4nS2PnO5j+VTFqCah0ZJizGzpVPAmxVYbLxTc9w==}
+    engines: {node: '>=18'}
     dependencies:
-      '@puppeteer/browsers': 1.9.1
+      '@puppeteer/browsers': 2.0.0
       chromium-bidi: 0.5.8(devtools-protocol@0.0.1232444)
       cross-fetch: 4.0.0
       debug: 4.3.4
