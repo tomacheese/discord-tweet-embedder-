@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.72
     version: 1.12.72
   '@book000/twitterts':
-    specifier: 0.60.7
-    version: 0.60.7
+    specifier: 0.60.8
+    version: 0.60.8
   '@types/node':
     specifier: 20.11.20
     version: 20.11.20
@@ -117,17 +117,17 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.7:
-    resolution: {integrity: sha512-uQ7eWD1o5ad7jl0LmLdLOHhSyH6/Ll7bRVkOTbeFht8E1/26RFZP36sKFxfYHwF3w7RZ4AtTxHKi2lulmDp7Hg==}
+  /@book000/twitterts@0.60.8:
+    resolution: {integrity: sha512-B7JjUqvGrswmpR+07MXFwHiJuqRhbK1i5CCzWLI9ZDts2nJQ4yCZfw5WFePVUUlyryxJTyZpD5RppuQPLfY+fQ==}
     dependencies:
       '@book000/node-utils': 1.12.72
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
-      mysql2: 3.9.1
+      mysql2: 3.9.2
       otplib: 12.0.1
       puppeteer-core: 22.2.0
       twitter-d: 0.6.0
-      typeorm: 0.3.20(mysql2@3.9.1)
+      typeorm: 0.3.20(mysql2@3.9.2)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
     transitivePeerDependencies:
       - '@google-cloud/spanner'
@@ -235,7 +235,7 @@ packages:
       '@vladfrangu/async_event_emitter': 2.2.4
       discord-api-types: 0.37.61
       tslib: 2.6.2
-      ws: 8.14.2
+      ws: 8.16.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -2971,8 +2971,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /mysql2@3.9.1:
-    resolution: {integrity: sha512-3njoWAAhGBYy0tWBabqUQcLtczZUxrmmtc2vszQUekg3kTJyZ5/IeLC3Fo04u6y6Iy5Sba7pIIa2P/gs8D3ZeQ==}
+  /mysql2@3.9.2:
+    resolution: {integrity: sha512-3Cwg/UuRkAv/wm6RhtPE5L7JlPB877vwSF6gfLAS68H+zhH+u5oa3AieqEd0D0/kC3W7qIhYbH419f7O9i/5nw==}
     engines: {node: '>= 8.0'}
     dependencies:
       denque: 2.1.0
@@ -4029,10 +4029,10 @@ packages:
     peerDependencies:
       typeorm: ^0.2.0 || ^0.3.0
     dependencies:
-      typeorm: 0.3.20(mysql2@3.9.1)
+      typeorm: 0.3.20(mysql2@3.9.2)
     dev: true
 
-  /typeorm@0.3.20(mysql2@3.9.1):
+  /typeorm@0.3.20(mysql2@3.9.2):
     resolution: {integrity: sha512-sJ0T08dV5eoZroaq9uPKBoNcGslHBR4E4y+EBHs//SiGbblGe7IeduP/IH4ddCcj0qp3PHwDwGnuvqEAnKlq/Q==}
     engines: {node: '>=16.13.0'}
     hasBin: true
@@ -4100,7 +4100,7 @@ packages:
       dotenv: 16.4.5
       glob: 10.3.10
       mkdirp: 2.1.6
-      mysql2: 3.9.1
+      mysql2: 3.9.2
       reflect-metadata: 0.2.1
       sha.js: 2.4.11
       tslib: 2.6.2
