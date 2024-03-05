@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.80
     version: 1.12.80
   '@book000/twitterts':
-    specifier: 0.60.24
-    version: 0.60.24
+    specifier: 0.60.25
+    version: 0.60.25
   '@types/node':
     specifier: 20.11.24
     version: 20.11.24
@@ -117,15 +117,15 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.24:
-    resolution: {integrity: sha512-hUA/gfL7X35puCY0P6X0UQiSM6TcJ80pUSaHrC9/cUr2PlKig2diRWWA5OUYdLSWsXsAzunDLe3TNVhaA2XqMg==}
+  /@book000/twitterts@0.60.25:
+    resolution: {integrity: sha512-YhtZcKNu8uAyr9QUyBhfNDzfYum4jLXbfm46dplH24al6sxCM9J8V4sjLiveuKNW8EPPAa5RO531mzdsOuWwTQ==}
     dependencies:
       '@book000/node-utils': 1.12.80
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.2
       otplib: 12.0.1
-      puppeteer-core: 22.3.0
+      puppeteer-core: 22.4.0
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.9.2)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
@@ -1222,8 +1222,8 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
-  /chromium-bidi@0.5.10(devtools-protocol@0.0.1249869):
-    resolution: {integrity: sha512-4hsPE1VaLLM/sgNK/SlLbI24Ra7ZOuWAjA3rhw1lVCZ8ZiUgccS6cL5L/iqo4hjRcl5vwgYJ8xTtbXdulA9b6Q==}
+  /chromium-bidi@0.5.12(devtools-protocol@0.0.1249869):
+    resolution: {integrity: sha512-sZMgEBWKbupD0Q7lyFu8AWkrE+rs5ycE12jFkGwIgD/VS8lDPtelPlXM7LYaq4zrkZ/O2L3f4afHUHL0ICdKog==}
     peerDependencies:
       devtools-protocol: '*'
     dependencies:
@@ -3342,12 +3342,12 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@22.3.0:
-    resolution: {integrity: sha512-Ho5Vdpdro05ZyCx/l5Hkc5vHiibKTaY37fIAD9NF9Gi/vDxkVTeX40U/mFnEmeoxyuYALvWCJfi7JTT82R6Tuw==}
+  /puppeteer-core@22.4.0:
+    resolution: {integrity: sha512-MZttAbttrxi6O/B//rY6zQihjFe/vXeCLb5YvKH2xG6yrcVESo0Hc5/Cv49omwZyZzAJ1BK8BnDeatDsj+3hMw==}
     engines: {node: '>=18'}
     dependencies:
       '@puppeteer/browsers': 2.1.0
-      chromium-bidi: 0.5.10(devtools-protocol@0.0.1249869)
+      chromium-bidi: 0.5.12(devtools-protocol@0.0.1249869)
       cross-fetch: 4.0.0
       debug: 4.3.4
       devtools-protocol: 0.0.1249869
