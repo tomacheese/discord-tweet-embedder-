@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.82
     version: 1.12.82
   '@book000/twitterts':
-    specifier: 0.60.29
-    version: 0.60.29
+    specifier: 0.60.30
+    version: 0.60.30
   '@types/node':
     specifier: 20.11.25
     version: 20.11.25
@@ -117,15 +117,15 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.29:
-    resolution: {integrity: sha512-x5F50LW3pyfTs01mUEPCq919nnRq+g+wZPne/htkHwxVybb9gTN+TGFPUGbdtKLbLwXvBNySWoUY5JWHDJQaWA==}
+  /@book000/twitterts@0.60.30:
+    resolution: {integrity: sha512-NDu7f/xQtLMIjRw1ui0KUokJw2wJbhuAwKmEBd+5+7YCme8SJb6akafMxPPQnkJfIVYDowipRkkOkYm/VXdkCg==}
     dependencies:
       '@book000/node-utils': 1.12.82
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.2
       otplib: 12.0.1
-      puppeteer-core: 22.4.0
+      puppeteer-core: 22.4.1
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.9.2)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
@@ -3342,8 +3342,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@22.4.0:
-    resolution: {integrity: sha512-MZttAbttrxi6O/B//rY6zQihjFe/vXeCLb5YvKH2xG6yrcVESo0Hc5/Cv49omwZyZzAJ1BK8BnDeatDsj+3hMw==}
+  /puppeteer-core@22.4.1:
+    resolution: {integrity: sha512-l9nf8NcirYOHdID12CIMWyy7dqcJCVtgVS+YAiJuUJHg8+9yjgPiG2PcNhojIEEpCkvw3FxvnyITVfKVmkWpjA==}
     engines: {node: '>=18'}
     dependencies:
       '@puppeteer/browsers': 2.1.0
