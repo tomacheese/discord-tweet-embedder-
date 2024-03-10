@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@book000/node-utils':
-    specifier: 1.12.82
-    version: 1.12.82
+    specifier: 1.12.83
+    version: 1.12.83
   '@book000/twitterts':
     specifier: 0.60.30
     version: 0.60.30
@@ -104,6 +104,21 @@ packages:
 
   /@book000/node-utils@1.12.82:
     resolution: {integrity: sha512-b3P+DlFwUbCGwXRVSWToD9IQ3uPCWcePgdigNeOws0/JV4wYSiAvQ2GdqnqHOVDKn2gey/T7HkOjWwAMSA9UxA==}
+    dependencies:
+      axios: 1.6.7
+      cycle: 1.0.3
+      form-data: 4.0.0
+      jsonc-parser: 3.2.1
+      logform: 2.6.0
+      moment-timezone: 0.5.45
+      winston: 3.12.0
+      winston-daily-rotate-file: 5.0.0(winston@3.12.0)
+    transitivePeerDependencies:
+      - debug
+    dev: true
+
+  /@book000/node-utils@1.12.83:
+    resolution: {integrity: sha512-0nwegXn2Vg3SyeH1qIZMIRzjOheL9ahj8ux5mfnM20eY7gtF0H6zL9po6dTBQDHV9y0RcyuP12wZvjqlHTyG8Q==}
     dependencies:
       axios: 1.6.7
       cycle: 1.0.3
