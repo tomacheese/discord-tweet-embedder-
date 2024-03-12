@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.85
     version: 1.12.85
   '@book000/twitterts':
-    specifier: 0.60.36
-    version: 0.60.36
+    specifier: 0.60.37
+    version: 0.60.37
   '@types/node':
     specifier: 20.11.25
     version: 20.11.25
@@ -117,10 +117,25 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.36:
-    resolution: {integrity: sha512-gQYtDbsKFCJsv8+K4GdfMhGP5ueu93dClD0UYoq2bYDJ8iiFfcxPRSg1AYBaju6BLS3n0BkimDr6/EfPD7MBlg==}
+  /@book000/node-utils@1.12.86:
+    resolution: {integrity: sha512-eyuYVm2OUHEo3GpMvlSURpCBJLZN10DmqB6JtDtzzszPiEaL6xoCjXsvsrlhMI7MJQPrJ8WNEoI98IMOARFJ6Q==}
     dependencies:
-      '@book000/node-utils': 1.12.85
+      axios: 1.6.7
+      cycle: 1.0.3
+      form-data: 4.0.0
+      jsonc-parser: 3.2.1
+      logform: 2.6.0
+      moment-timezone: 0.5.45
+      winston: 3.12.0
+      winston-daily-rotate-file: 5.0.0(winston@3.12.0)
+    transitivePeerDependencies:
+      - debug
+    dev: true
+
+  /@book000/twitterts@0.60.37:
+    resolution: {integrity: sha512-TSPlkT2F/9MjknC8OxyOCNP6UCbnfapruBLNYAStD8VkDgYo8hDbbWG5PhUicNj3dq5U3RXslZCsIEG0xub80w==}
+    dependencies:
+      '@book000/node-utils': 1.12.86
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.2
