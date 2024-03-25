@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.101
     version: 1.12.101
   '@book000/twitterts':
-    specifier: 0.60.62
-    version: 0.60.62
+    specifier: 0.60.63
+    version: 0.60.63
   '@types/node':
     specifier: 20.11.30
     version: 20.11.30
@@ -103,21 +103,6 @@ packages:
       js-yaml: 4.1.0
     dev: true
 
-  /@book000/node-utils@1.12.100:
-    resolution: {integrity: sha512-Crn90r7jQWtSuiwKoN2rFS2UI2X56Q7viyN5NpOkGCdleZirRPlrzFuQTMEiWsXTtYXPyfpQbJLrb0tGrkTF/g==}
-    dependencies:
-      axios: 1.6.8
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.2.1
-      logform: 2.6.0
-      moment-timezone: 0.5.45
-      winston: 3.12.0
-      winston-daily-rotate-file: 5.0.0(winston@3.12.0)
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
   /@book000/node-utils@1.12.101:
     resolution: {integrity: sha512-e1eA+v+Hk7pz2pJn8MvDBNL19b7SGw54HOUmZ1OKEkGap7vviW67wgVyTkrpTeGySfQVwvQbf0KJhPKE2PV8vg==}
     dependencies:
@@ -133,10 +118,10 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.62:
-    resolution: {integrity: sha512-EaYjjPgW4KuFbFPAp8zxKf1aEAuZVdaKQz8O3GQDQRcZFbU0lL/04VPViYGIi4f1O2in4VFrutxYXT8SXGn2vg==}
+  /@book000/twitterts@0.60.63:
+    resolution: {integrity: sha512-lCblHwe6EbqbXrhzBw5ydSW/uiI02bCxu0A3SJ0/vU1p6qOztCiutapAJfVwr8TA5XYFPZ6b8wBUJr2urhK/0w==}
     dependencies:
-      '@book000/node-utils': 1.12.100
+      '@book000/node-utils': 1.12.101
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.2
@@ -4258,19 +4243,6 @@ packages:
       isexe: 2.0.0
     dev: true
 
-  /winston-daily-rotate-file@5.0.0(winston@3.12.0):
-    resolution: {integrity: sha512-JDjiXXkM5qvwY06733vf09I2wnMXpZEhxEVOSPenZMii+g7pcDcTBt2MRugnoi8BwVSuCT2jfRXBUy+n1Zz/Yw==}
-    engines: {node: '>=8'}
-    peerDependencies:
-      winston: ^3
-    dependencies:
-      file-stream-rotator: 0.6.1
-      object-hash: 3.0.0
-      triple-beam: 1.4.1
-      winston: 3.12.0
-      winston-transport: 4.7.0
-    dev: true
-
   /winston-daily-rotate-file@5.0.0(winston@3.13.0):
     resolution: {integrity: sha512-JDjiXXkM5qvwY06733vf09I2wnMXpZEhxEVOSPenZMii+g7pcDcTBt2MRugnoi8BwVSuCT2jfRXBUy+n1Zz/Yw==}
     engines: {node: '>=8'}
@@ -4291,23 +4263,6 @@ packages:
       logform: 2.6.0
       readable-stream: 3.6.2
       triple-beam: 1.4.1
-    dev: true
-
-  /winston@3.12.0:
-    resolution: {integrity: sha512-OwbxKaOlESDi01mC9rkM0dQqQt2I8DAUMRLZ/HpbwvDXm85IryEHgoogy5fziQy38PntgZsLlhAYHz//UPHZ5w==}
-    engines: {node: '>= 12.0.0'}
-    dependencies:
-      '@colors/colors': 1.6.0
-      '@dabh/diagnostics': 2.0.3
-      async: 3.2.5
-      is-stream: 2.0.1
-      logform: 2.6.0
-      one-time: 1.0.0
-      readable-stream: 3.6.2
-      safe-stable-stringify: 2.4.3
-      stack-trace: 0.0.10
-      triple-beam: 1.4.1
-      winston-transport: 4.7.0
     dev: true
 
   /winston@3.13.0:
