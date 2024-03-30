@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.105
     version: 1.12.105
   '@book000/twitterts':
-    specifier: 0.60.72
-    version: 0.60.72
+    specifier: 0.60.73
+    version: 0.60.73
   '@types/node':
     specifier: 20.11.30
     version: 20.11.30
@@ -118,8 +118,8 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.72:
-    resolution: {integrity: sha512-WP9dOWQc1nZFWRYlClEQOgUgI5ULEjcKpCWNV+BCWbXbZJDVQniLLq1kNKHsw+lCuqc8KWc35H8FnOolXfYP/w==}
+  /@book000/twitterts@0.60.73:
+    resolution: {integrity: sha512-F8XRT5I98/vKU04VJu6mSpNld1C5dP7no8Qao3TslHlhXdDM+I7b6JRNgMN3y+CCjO1JqxP7gVdMd16cDoBR9Q==}
     dependencies:
       '@book000/node-utils': 1.12.105
       genson-js: 0.0.8
@@ -3409,6 +3409,7 @@ packages:
 
   /reflect-metadata@0.2.1:
     resolution: {integrity: sha512-i5lLI6iw9AU3Uu4szRNPPEkomnkjRTaVt9hy/bn5g/oSzekBSMeLZblcjP74AW0vBabqERLLIrz+gR8QYR54Tw==}
+    deprecated: This version has a critical bug in fallback handling. Please upgrade to reflect-metadata@0.2.2 or newer.
     dev: true
 
   /regexp-tree@0.1.27:
