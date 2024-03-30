@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.106
     version: 1.12.106
   '@book000/twitterts':
-    specifier: 0.60.73
-    version: 0.60.73
+    specifier: 0.60.74
+    version: 0.60.74
   '@types/node':
     specifier: 20.11.30
     version: 20.11.30
@@ -103,21 +103,6 @@ packages:
       js-yaml: 4.1.0
     dev: true
 
-  /@book000/node-utils@1.12.105:
-    resolution: {integrity: sha512-IDvTfC+JPRt3IavTN3FWfB8E/3wveNoPsCpRV5nlGuIGTJ6kp1rCdzjnDloeEuQsCkNhWaWjBfd0+5GL5NFUBg==}
-    dependencies:
-      axios: 1.6.8
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.2.1
-      logform: 2.6.0
-      moment-timezone: 0.5.45
-      winston: 3.13.0
-      winston-daily-rotate-file: 5.0.0(winston@3.13.0)
-    transitivePeerDependencies:
-      - debug
-    dev: true
-
   /@book000/node-utils@1.12.106:
     resolution: {integrity: sha512-VXikEXPq0QExKMnzRJG9WpufMiAtXoQ2L4fYdqxq/UJLrERo81W0LmJSlbSRMTT6Xk7r/0R8MvmCP3M2oXc6Tg==}
     dependencies:
@@ -133,10 +118,10 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.73:
-    resolution: {integrity: sha512-F8XRT5I98/vKU04VJu6mSpNld1C5dP7no8Qao3TslHlhXdDM+I7b6JRNgMN3y+CCjO1JqxP7gVdMd16cDoBR9Q==}
+  /@book000/twitterts@0.60.74:
+    resolution: {integrity: sha512-flC9WpxFft6ELB8z3ncJEAwhaJF2AMjkDWrb3SBNkF/gYREyjPdwLJmZqnS6KAWQ8BEBMKWw5laBvxRzyFwzTQ==}
     dependencies:
-      '@book000/node-utils': 1.12.105
+      '@book000/node-utils': 1.12.106
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.3
