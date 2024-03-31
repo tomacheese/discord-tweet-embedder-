@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.107
     version: 1.12.107
   '@book000/twitterts':
-    specifier: 0.60.74
-    version: 0.60.74
+    specifier: 0.60.75
+    version: 0.60.75
   '@types/node':
     specifier: 20.12.2
     version: 20.12.2
@@ -133,8 +133,8 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.74:
-    resolution: {integrity: sha512-flC9WpxFft6ELB8z3ncJEAwhaJF2AMjkDWrb3SBNkF/gYREyjPdwLJmZqnS6KAWQ8BEBMKWw5laBvxRzyFwzTQ==}
+  /@book000/twitterts@0.60.75:
+    resolution: {integrity: sha512-TmKIZLm71ytqC55g5hgmRwHit0GhwJdRmeM1AphIkTo+OQ1ZEWVpjwOd/5/eUk0E6QqnNJk9byZLDjjjQKbyKQ==}
     dependencies:
       '@book000/node-utils': 1.12.106
       genson-js: 0.0.8
