@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@book000/node-utils':
-    specifier: 1.12.120
-    version: 1.12.120
+    specifier: 1.12.123
+    version: 1.12.123
   '@book000/twitterts':
     specifier: 0.60.109
     version: 0.60.109
@@ -101,21 +101,6 @@ packages:
       '@types/json-schema': 7.0.15
       call-me-maybe: 1.0.2
       js-yaml: 4.1.0
-    dev: true
-
-  /@book000/node-utils@1.12.120:
-    resolution: {integrity: sha512-YP4JvHZJfgvPWhICC130el9b4aKrtvwfUotUuMyeSKklApIyXcrnDyZADi4hn/DTUbuDdYpFUrTPDVNC+hOsLw==}
-    dependencies:
-      axios: 1.6.8
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.2.1
-      logform: 2.6.0
-      moment-timezone: 0.5.45
-      winston: 3.13.0
-      winston-daily-rotate-file: 5.0.0(winston@3.13.0)
-    transitivePeerDependencies:
-      - debug
     dev: true
 
   /@book000/node-utils@1.12.123:
