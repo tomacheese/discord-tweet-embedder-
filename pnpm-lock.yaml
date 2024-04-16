@@ -9,8 +9,8 @@ devDependencies:
     specifier: 1.12.127
     version: 1.12.127
   '@book000/twitterts':
-    specifier: 0.60.119
-    version: 0.60.119
+    specifier: 0.60.120
+    version: 0.60.120
   '@types/node':
     specifier: 20.12.7
     version: 20.12.7
@@ -118,15 +118,15 @@ packages:
       - debug
     dev: true
 
-  /@book000/twitterts@0.60.119:
-    resolution: {integrity: sha512-RvmDM640evwgA034KFlQg3qT9VwE8dvjBbk0ZGDtYJduFIIoi1XDyBbmHtI0V6w0w3QXGvH9Z4x8EOEGjOIxmg==}
+  /@book000/twitterts@0.60.120:
+    resolution: {integrity: sha512-aadukSXMd2A8o4iYeHtK0cHjfvzVLYoELURGtWZWvDHsq1UOSANyB4jGJKRguzf9+GPs2CVl2DdRujTGKmel5w==}
     dependencies:
       '@book000/node-utils': 1.12.127
       genson-js: 0.0.8
       json-schema-to-typescript: 13.1.2
       mysql2: 3.9.4
       otplib: 12.0.1
-      puppeteer-core: 22.6.4
+      puppeteer-core: 22.6.5
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.9.4)
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20)
@@ -603,8 +603,8 @@ packages:
     dev: true
     optional: true
 
-  /@puppeteer/browsers@2.2.1:
-    resolution: {integrity: sha512-QSXujx4d4ogDamQA8ckkkRieFzDgZEuZuGiey9G7CuDcbnX4iINKWxTPC5Br2AEzY9ICAvcndqgAUFMMKnS/Tw==}
+  /@puppeteer/browsers@2.2.2:
+    resolution: {integrity: sha512-hZ/JhxPIceWaGSEzUZp83/8M49CoxlkuThfTR7t4AoCu5+ZvJ3vktLm60Otww2TXeROB5igiZ8D9oPQh6ckBVg==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
@@ -3358,11 +3358,11 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /puppeteer-core@22.6.4:
-    resolution: {integrity: sha512-QtfJwPmqQec3EHc6LqbEz03vSiuVAr9bYp0TV87dLoreev6ZevsXdLgOfQgoA3GocrsSe/eUf7NRPQ1lQfsc3w==}
+  /puppeteer-core@22.6.5:
+    resolution: {integrity: sha512-s0/5XkAWe0/dWISiljdrybjwDCHhgN31Nu/wznOZPKeikgcJtZtbvPKBz0t802XWqfSQnQDt3L6xiAE5JLlfuw==}
     engines: {node: '>=18'}
     dependencies:
-      '@puppeteer/browsers': 2.2.1
+      '@puppeteer/browsers': 2.2.2
       chromium-bidi: 0.5.17(devtools-protocol@0.0.1262051)
       debug: 4.3.4
       devtools-protocol: 0.0.1262051
