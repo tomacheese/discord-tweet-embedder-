@@ -12,8 +12,8 @@ importers:
         specifier: 1.13.7
         version: 1.13.7
       '@book000/twitterts':
-        specifier: 0.61.8
-        version: 0.61.8(ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5))
+        specifier: 0.61.11
+        version: 0.61.11(ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5))
       '@types/node':
         specifier: 20.12.7
         version: 20.12.7
@@ -88,14 +88,11 @@ packages:
     resolution: {integrity: sha512-Yac1ao4flkTxTteCDZLEvdxg2fZfz1v8M4QpaGypq/WPDqg3ijHYbDfs+LG5hvzSoqaSZ9/Z9lKSP3CjZjv+pA==}
     engines: {node: '>=6.9.0'}
 
-  '@book000/node-utils@1.13.6':
-    resolution: {integrity: sha512-Qae5FHhT7AZbrdPqbXp338ZiedpGvK9NWePLXalGBTAIdL0CpISPHTYNcXwrG9KUaDo8THnIqFPjDCEBdV42bA==}
-
   '@book000/node-utils@1.13.7':
     resolution: {integrity: sha512-iu4kkZtYr5+KvEPHs1fJT/tjBuNo9RTbBDVgXRdPJpS3cXFcAVHAfXsGSIhOJ/LK+ILuobPfOwsaYLevq12IFg==}
 
-  '@book000/twitterts@0.61.8':
-    resolution: {integrity: sha512-GkpcGWfSE0dVc95vn+GmI3h9+QksG59TyqnDsrbrx7gbyJ47oEeehJckjmi23ndic65yTRXYp7l7CccEy1Sa2Q==}
+  '@book000/twitterts@0.61.11':
+    resolution: {integrity: sha512-0D5nqG9XYggfEtPA/9CQbnDCgrFFFtS9JYP+wx07H8btkYQClXrWTg3zNNTz/nMOhWyGHhjBgcIPdfz+VZPSlg==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2420,18 +2417,6 @@ snapshots:
       js-tokens: 4.0.0
       picocolors: 1.0.0
 
-  '@book000/node-utils@1.13.6':
-    dependencies:
-      axios: 1.6.8
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.2.1
-      moment-timezone: 0.5.45
-      winston: 3.13.0
-      winston-daily-rotate-file: 5.0.0(winston@3.13.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.7':
     dependencies:
       axios: 1.6.8
@@ -2444,9 +2429,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.61.8(ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5))':
+  '@book000/twitterts@0.61.11(ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5))':
     dependencies:
-      '@book000/node-utils': 1.13.6
+      '@book000/node-utils': 1.13.7
       genson-js: 0.0.8
       json-schema-to-typescript: 14.0.0
       mysql2: 3.9.7
