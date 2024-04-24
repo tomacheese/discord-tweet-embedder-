@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@book000/node-utils':
-        specifier: 1.13.9
-        version: 1.13.9
+        specifier: 1.13.11
+        version: 1.13.11
       '@book000/twitterts':
         specifier: 0.61.17
         version: 0.61.17(ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5))
@@ -88,11 +88,11 @@ packages:
     resolution: {integrity: sha512-Yac1ao4flkTxTteCDZLEvdxg2fZfz1v8M4QpaGypq/WPDqg3ijHYbDfs+LG5hvzSoqaSZ9/Z9lKSP3CjZjv+pA==}
     engines: {node: '>=6.9.0'}
 
+  '@book000/node-utils@1.13.11':
+    resolution: {integrity: sha512-d2uUqEjN21YJRR6PssCuoRMC1tmipr9vXOxJpOelJg7J6BmFYueMIBCRNDWw1lc8yE/fZBIxH3yPJRw2KIbWjA==}
+
   '@book000/node-utils@1.13.8':
     resolution: {integrity: sha512-9lom28URekqY+F2FzlO1zqFmif68xwU8iS4BCfewVu0anwdF+iKMWME3uAIMID4BOrQoaqOqTGBXX6f/ZSeYjg==}
-
-  '@book000/node-utils@1.13.9':
-    resolution: {integrity: sha512-1mVrmWwobOiFpu2A+hS63+f9Li2WeXJsTxWe7e76PqHLjTQWJEaoCfUFSZUPOqeSlq3rj/CEb0bYuaBs95YNWQ==}
 
   '@book000/twitterts@0.61.17':
     resolution: {integrity: sha512-ZlLzTdsBVB6STKGipXLu2lYEXV/x5D8WjIhaf69k+19MnLVT0Y9cWCmeDd6t+BlhPGxhVlPTlZh4XClHu8cqZQ==}
@@ -2420,7 +2420,7 @@ snapshots:
       js-tokens: 4.0.0
       picocolors: 1.0.0
 
-  '@book000/node-utils@1.13.8':
+  '@book000/node-utils@1.13.11':
     dependencies:
       axios: 1.6.8
       cycle: 1.0.3
@@ -2432,7 +2432,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/node-utils@1.13.9':
+  '@book000/node-utils@1.13.8':
     dependencies:
       axios: 1.6.8
       cycle: 1.0.3
