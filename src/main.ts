@@ -25,34 +25,53 @@ async function main() {
     otpSecret: config.get('twitter').otpSecret,
     puppeteerOptions: {
       executablePath: process.env.CHROMIUM_PATH,
-      userDataDirectory: process.env.USER_DATA_DIRECTORY || './data/userdata',
+      userDataDirectory: process.env.USER_DATA_DIRECTORY ?? './data/userdata',
     },
   })
 
   const discord = new Discord(config, twitter)
   process.once('SIGINT', () => {
     logger.info('👋 SIGINT signal received.')
-    twitter.close().then(() => {
-      logger.info('🔑 Logged out from Twitter.')
+    twitter
+      .close()
+      .then(() => {
+        logger.info('🔑 Logged out from Twitter.')
 
-      discord.close()
+        return discord.close()
+      })
+      .then(() => {
+        logger.info('🔑 Logged out from Discord.')
 
-      process.exit(0)
-    })
+        process.exit(0)
+      })
+      .catch((error: unknown) => {
+        logger.error('❌ Failed to logout from Twitter', error as Error)
+        process.exit(1)
+      })
   })
 
   // 1日毎に再起動する
   setTimeout(
     () => {
       logger.info('👋 Restarting...')
-      twitter.close().then(() => {
-        logger.info('🔑 Logged out from Twitter.')
+      twitter
+        .close()
+        .then(() => {
+          logger.info('🔑 Logged out from Twitter.')
 
-        discord.close()
+          return discord.close()
+        })
+        .then(() => {
+          logger.info('🔑 Logged out from Discord.')
 
-        // eslint-disable-next-line unicorn/no-process-exit
-        process.exit(0)
-      })
+          // eslint-disable-next-line unicorn/no-process-exit
+          process.exit(0)
+        })
+        .catch((error: unknown) => {
+          logger.error('❌ Failed to logout from Twitter', error as Error)
+          // eslint-disable-next-line unicorn/no-process-exit
+          process.exit(1)
+        })
     },
     1000 * 60 * 60 * 24
   )

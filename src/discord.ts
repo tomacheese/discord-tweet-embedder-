@@ -27,7 +27,10 @@ export class Discord {
       eventHandler.onMessageCreate.bind(eventHandler)
     )
 
-    this.client.login(config.get('discord').token)
+    this.client.login(config.get('discord').token).catch((error: unknown) => {
+      const logger = Logger.configure('Discord.login')
+      logger.error('❌ Failed to login to Discord', error as Error)
+    })
 
     this.config = config
   }
@@ -44,11 +47,11 @@ export class Discord {
     return this.config
   }
 
-  public close() {
-    this.client.destroy()
+  public async close() {
+    await this.client.destroy()
   }
 
-  async onReady() {
+  onReady() {
     const logger = Logger.configure('Discord.onReady')
     logger.info(`👌 ready: ${this.client.user?.tag}`)
   }
