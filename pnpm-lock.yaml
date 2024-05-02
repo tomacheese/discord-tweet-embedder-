@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.22
         version: 1.13.22
       '@book000/twitterts':
-        specifier: 0.61.38
-        version: 0.61.38(ts-node@10.9.2(@types/node@20.12.8)(typescript@5.4.5))
+        specifier: 0.61.39
+        version: 0.61.39(ts-node@10.9.2(@types/node@20.12.8)(typescript@5.4.5))
       '@types/node':
         specifier: 20.12.8
         version: 20.12.8
@@ -84,8 +84,8 @@ packages:
   '@book000/node-utils@1.13.22':
     resolution: {integrity: sha512-GVvBIyGpRu4ijtyjDRU2a02Y6r2mhn7puticQz82olWmPWiWP14HZY2BToISHo4y5WnvEeC4rksN1434O/H/Lg==}
 
-  '@book000/twitterts@0.61.38':
-    resolution: {integrity: sha512-0i6Y/uex3/uYsfpVMREzOn+bNuIyIGZzUmpXbGlUJvNDi3K/OX+BUXpJ8l3+Wlw7b4BKGZzQPVj7W44MzIHUYA==}
+  '@book000/twitterts@0.61.39':
+    resolution: {integrity: sha512-K2FRqPYT0ZLXrLqqsekBvriH35Xi+D7R7+wTcwbALH1KhUb+mr9zyC0ykDFItNom2Bu5nRBTiubf5q3qomsYbQ==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -405,10 +405,6 @@ packages:
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
-
-  '@types/prettier@3.0.0':
-    resolution: {integrity: sha512-mFMBfMOz8QxhYVbuINtswBp9VL2b4Y0QqYHwqLz3YbgtfAcat2Dl6Y1o4e22S/OVE6Ebl9m7wWiMT2lSbAs1wA==}
-    deprecated: This is a stub types definition. prettier provides its own type definitions, so you do not need this installed.
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -1469,8 +1465,8 @@ packages:
   json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
 
-  json-schema-to-typescript@14.0.0:
-    resolution: {integrity: sha512-y/Pj93Ggu69LyRPxqpe16t8LA/5ZyJVoqmUf+o+2cBG33dH/GsDn5oDZD3EiOTkHXjVuZg4qWnWzTtS2LcoeiA==}
+  json-schema-to-typescript@14.0.4:
+    resolution: {integrity: sha512-covPOp3hrbD+oEcMvDxP5Rh6xNZj7lOTZkXAeQoDyu1PuEl1A6oRZ3Sy05HN11vXXmdJ6gLh5P3Qz0mgMPTzzw==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
@@ -2460,11 +2456,11 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.61.38(ts-node@10.9.2(@types/node@20.12.8)(typescript@5.4.5))':
+  '@book000/twitterts@0.61.39(ts-node@10.9.2(@types/node@20.12.8)(typescript@5.4.5))':
     dependencies:
       '@book000/node-utils': 1.13.22
       genson-js: 0.0.8
-      json-schema-to-typescript: 14.0.0
+      json-schema-to-typescript: 14.0.4
       mysql2: 3.9.7
       otplib: 12.0.1
       puppeteer-core: 22.7.1
@@ -2779,10 +2775,6 @@ snapshots:
       undici-types: 5.26.5
 
   '@types/normalize-package-data@2.4.4': {}
-
-  '@types/prettier@3.0.0':
-    dependencies:
-      prettier: 3.2.5
 
   '@types/semver@7.5.8': {}
 
@@ -4042,12 +4034,11 @@ snapshots:
 
   json-parse-even-better-errors@2.3.1: {}
 
-  json-schema-to-typescript@14.0.0:
+  json-schema-to-typescript@14.0.4:
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.6.1
       '@types/json-schema': 7.0.15
       '@types/lodash': 4.17.0
-      '@types/prettier': 3.0.0
       cli-color: 2.0.4
       glob: 10.3.12
       is-glob: 4.0.3
