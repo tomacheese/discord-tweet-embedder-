@@ -10,6 +10,7 @@ export class Discord {
   private twitter: Twitter
 
   constructor(config: Configuration, twitter: Twitter) {
+    const logger = Logger.configure('Discord.constructor')
     this.twitter = twitter
     this.client = new Client({
       intents: [
@@ -22,10 +23,11 @@ export class Discord {
     this.client.on('ready', this.onReady.bind(this))
 
     const eventHandler = new Embedder(this)
-    this.client.on(
-      'messageCreate',
-      eventHandler.onMessageCreate.bind(eventHandler)
-    )
+    this.client.on('messageCreate', (message) => {
+      eventHandler.onMessageCreate(message).catch((error: unknown) => {
+        logger.error('❌ Failed to handle message', error as Error)
+      })
+    })
 
     this.client.login(config.get('discord').token).catch((error: unknown) => {
       const logger = Logger.configure('Discord.login')
