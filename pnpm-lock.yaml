@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.71
         version: 1.13.71
       '@book000/twitterts':
-        specifier: 0.62.2
-        version: 0.62.2(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))
+        specifier: 0.62.13
+        version: 0.62.13(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))
       '@types/node':
         specifier: 20.12.12
         version: 20.12.12
@@ -81,14 +81,14 @@ packages:
       eslint: 9.3.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.55':
-    resolution: {integrity: sha512-rESILneqhGgpZgPCEMseKWI6uo43edqQ2K5/rq9f17pJLsERZbzNf7b8rhxTo6TNHxNEleQAORl81JMbXo7sAA==}
+  '@book000/node-utils@1.13.67':
+    resolution: {integrity: sha512-p/lkm57FduHAYN6Pr6dhOzUTkgW/cmWmJlsqNPbGEq8rMxwgy6Ilh8OnI+O0OLbhmKtQOlDToFn+mdNYnDW1UQ==}
 
   '@book000/node-utils@1.13.71':
     resolution: {integrity: sha512-aigt5S7oKZWjQLFP6uQLQYSfVGDRrs/jXA8f7eOLYDM/v/jeBoiQei/WQRgODMp5Ltxe6Cl4TOws6/2OdRr9Lw==}
 
-  '@book000/twitterts@0.62.2':
-    resolution: {integrity: sha512-IRdYBwTHSdokH+jbut0Kow57bEglPo2mcA7k8UB8K0eux61uWhdeMxM7Yu9KsP1r93mbkIgpABdT1cQqb1mgQQ==}
+  '@book000/twitterts@0.62.13':
+    resolution: {integrity: sha512-wvls46HOYdwIXiA1HZ8ek4z5S1yvXO9c284gDI6sQ/rEErh3F1B2VmD2hrR2JYAPlSXEpaJmd8w/H2IOp5Bh9w==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -572,8 +572,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  axios@1.6.8:
-    resolution: {integrity: sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==}
+  axios@1.7.0:
+    resolution: {integrity: sha512-IiB0wQeKyPRdsFVhBgIo31FbzOyf2M6wYl7/NVutFwFBRMiAbjNiydJIHKeLmPugF4kJLfA1uWZ82Is2QzqqFA==}
 
   axios@1.7.2:
     resolution: {integrity: sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==}
@@ -804,8 +804,8 @@ packages:
     resolution: {integrity: sha512-HVQE3AAb/pxF8fQAoiqpvg9i3evqug3hoiwakOyZAwJm+6vZehbkYXZ0l4JxS+I3QxM97v5aaRNhj8v5oBhekw==}
     engines: {node: '>=0.10'}
 
-  devtools-protocol@0.0.1273771:
-    resolution: {integrity: sha512-QDbb27xcTVReQQW/GHJsdQqGKwYBE7re7gxehj467kKP2DKuYBUj6i2k5LRiAC66J1yZG/9gsxooz/s9pcm0Og==}
+  devtools-protocol@0.0.1286932:
+    resolution: {integrity: sha512-wu58HMQll9voDjR4NlPyoDEw1syfzaBNHymMMZ/QOXiHRNluOnDgu9hp1yHOKYoMlxCh4lSSiugLITe6Fvu1eA==}
 
   diff@4.0.2:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
@@ -1808,8 +1808,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@22.8.1:
-    resolution: {integrity: sha512-m1F6ZSTw1xrJ6xD4B+HonkSNVQmMrRMaqca/ivRcZYJ6jqzOnfEh3QgO9HpNPj6heiAZ2+4IPAU3jdZaTIDnSA==}
+  puppeteer-core@22.9.0:
+    resolution: {integrity: sha512-Q2SYVZ1SIE7jCd/Pp+1/mNLFtdJfGvAF+CqOTDG8HcCNCiBvoXfopXfOfMHQ/FueXhGfJW/I6DartWv6QzpNGg==}
     engines: {node: '>=18'}
 
   queue-microtask@1.2.3:
@@ -2424,9 +2424,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.55':
+  '@book000/node-utils@1.13.67':
     dependencies:
-      axios: 1.6.8
+      axios: 1.7.0
       cycle: 1.0.3
       form-data: 4.0.0
       jsonc-parser: 3.2.1
@@ -2448,14 +2448,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.62.2(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))':
+  '@book000/twitterts@0.62.13(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))':
     dependencies:
-      '@book000/node-utils': 1.13.55
+      '@book000/node-utils': 1.13.67
       genson-js: 0.0.8
       json-schema-to-typescript: 14.0.4
       mysql2: 3.9.7
       otplib: 12.0.1
-      puppeteer-core: 22.8.1
+      puppeteer-core: 22.9.0
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.9.7)(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20(mysql2@3.9.7)(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5)))
@@ -2953,7 +2953,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  axios@1.6.8:
+  axios@1.7.0:
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
@@ -3059,9 +3059,9 @@ snapshots:
 
   chalk@5.3.0: {}
 
-  chromium-bidi@0.5.19(devtools-protocol@0.0.1273771):
+  chromium-bidi@0.5.19(devtools-protocol@0.0.1286932):
     dependencies:
-      devtools-protocol: 0.0.1273771
+      devtools-protocol: 0.0.1286932
       mitt: 3.0.1
       urlpattern-polyfill: 10.0.0
       zod: 3.22.4
@@ -3216,7 +3216,7 @@ snapshots:
 
   denque@2.1.0: {}
 
-  devtools-protocol@0.0.1273771: {}
+  devtools-protocol@0.0.1286932: {}
 
   diff@4.0.2: {}
 
@@ -4366,12 +4366,12 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@22.8.1:
+  puppeteer-core@22.9.0:
     dependencies:
       '@puppeteer/browsers': 2.2.3
-      chromium-bidi: 0.5.19(devtools-protocol@0.0.1273771)
+      chromium-bidi: 0.5.19(devtools-protocol@0.0.1286932)
       debug: 4.3.4
-      devtools-protocol: 0.0.1273771
+      devtools-protocol: 0.0.1286932
       ws: 8.17.0
     transitivePeerDependencies:
       - bufferutil
