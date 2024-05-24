@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.72
         version: 1.13.72
       '@book000/twitterts':
-        specifier: 0.62.16
-        version: 0.62.16(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))
+        specifier: 0.62.17
+        version: 0.62.17(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))
       '@types/node':
         specifier: 20.12.12
         version: 20.12.12
@@ -84,8 +84,8 @@ packages:
   '@book000/node-utils@1.13.72':
     resolution: {integrity: sha512-AiLcAmfS6p9GKFoDxouEpQthrXxwjVrl8+LGQWs9p9m5gueF9fkQ1G8bMDoE5cFbvBRp7X1JfUu8LxpWaR9Pwg==}
 
-  '@book000/twitterts@0.62.16':
-    resolution: {integrity: sha512-UNWJnDOBo7b51xupExlKfweZ8pqmr+jWUQgoaeRc2le4xw8M2hvzZ8BsoKi0eALWQr3lT4RelAq8nAmOYBHqJA==}
+  '@book000/twitterts@0.62.17':
+    resolution: {integrity: sha512-IY6TC7tfCvUJ59/fvMoAhSqUgugXNYRhvysYwJkVNY8yoz0yleUplst7ePzF0nnTOie9uWH1hXCcn+RfIb4zxA==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1799,8 +1799,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@22.9.0:
-    resolution: {integrity: sha512-Q2SYVZ1SIE7jCd/Pp+1/mNLFtdJfGvAF+CqOTDG8HcCNCiBvoXfopXfOfMHQ/FueXhGfJW/I6DartWv6QzpNGg==}
+  puppeteer-core@22.10.0:
+    resolution: {integrity: sha512-I54J4Vy4I07UHsgB1QSmuFoF7KNQjJWcvFBPhtY+ezMdBfwgGDr8dzYrJa11aPgP9kxIUHjhktcMmmfJkOAtTw==}
     engines: {node: '>=18'}
 
   queue-microtask@1.2.3:
@@ -2427,14 +2427,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.62.16(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))':
+  '@book000/twitterts@0.62.17(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))':
     dependencies:
       '@book000/node-utils': 1.13.72
       genson-js: 0.0.8
       json-schema-to-typescript: 14.0.4
       mysql2: 3.9.7
       otplib: 12.0.1
-      puppeteer-core: 22.9.0
+      puppeteer-core: 22.10.0
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.9.7)(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5))
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20(mysql2@3.9.7)(ts-node@10.9.2(@types/node@20.12.12)(typescript@5.4.5)))
@@ -4335,7 +4335,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@22.9.0:
+  puppeteer-core@22.10.0:
     dependencies:
       '@puppeteer/browsers': 2.2.3
       chromium-bidi: 0.5.19(devtools-protocol@0.0.1286932)
