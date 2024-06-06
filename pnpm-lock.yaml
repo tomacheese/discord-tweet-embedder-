@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.97
         version: 1.13.97
       '@book000/twitterts':
-        specifier: 0.62.53
-        version: 0.62.53(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))
+        specifier: 0.62.58
+        version: 0.62.58(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))
       '@types/node':
         specifier: 20.14.1
         version: 20.14.1
@@ -81,14 +81,11 @@ packages:
       eslint: 9.4.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.93':
-    resolution: {integrity: sha512-C04TInoIK9tVa4sWe4wby9onOsCF4yYX4ZtY+8k0vWzmCN/6vNiwYsjq+48QCJmOclTse7GgteVutUYLN7TZzQ==}
-
   '@book000/node-utils@1.13.97':
     resolution: {integrity: sha512-d9N4FKwnKi0fgxymNw7PG3y2wkG5+zqBDRtJ20JQkMPdT9nQD7faX20dA64TqMuy/xvTStE0LHKGJ6wzM6aspw==}
 
-  '@book000/twitterts@0.62.53':
-    resolution: {integrity: sha512-v8BaWgllF6y2f9rISxQ+e6Zo9znNdAWIw3l7x0PB7g9IMAC6IgRR7Og7PYVSb3fGk0uU6Ygi9SmQiJicEvPCXA==}
+  '@book000/twitterts@0.62.58':
+    resolution: {integrity: sha512-uag80LwsitCCgOSaXVDy/AIcC8zh4PP4DJl17+s3UX++BY5fXia0JFwxWgKwhJHvZhsOwbWDJP1VwPOF7+Aeww==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2434,18 +2431,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.93':
-    dependencies:
-      axios: 1.7.2
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.2.1
-      moment-timezone: 0.5.45
-      winston: 3.13.0
-      winston-daily-rotate-file: 5.0.0(winston@3.13.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.97':
     dependencies:
       axios: 1.7.2
@@ -2458,9 +2443,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.62.53(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))':
+  '@book000/twitterts@0.62.58(ts-node@10.9.2(@types/node@20.14.1)(typescript@5.4.5))':
     dependencies:
-      '@book000/node-utils': 1.13.93
+      '@book000/node-utils': 1.13.97
       genson-js: 0.0.8
       json-schema-to-typescript: 14.0.5
       mysql2: 3.10.0
@@ -2866,7 +2851,7 @@ snapshots:
 
   agent-base@7.1.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -3613,7 +3598,7 @@ snapshots:
 
   extract-zip@2.0.1:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5
       get-stream: 5.2.0
       yauzl: 2.10.0
     optionalDependencies:
@@ -3760,7 +3745,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.5
       data-uri-to-buffer: 6.0.2
-      debug: 4.3.4
+      debug: 4.3.5
       fs-extra: 11.2.0
     transitivePeerDependencies:
       - supports-color
@@ -3845,14 +3830,14 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.4:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
     transitivePeerDependencies:
       - supports-color
 
@@ -4280,7 +4265,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       get-uri: 6.0.3
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
@@ -4351,7 +4336,7 @@ snapshots:
   proxy-agent@6.4.0:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
       lru-cache: 7.18.3
@@ -4538,7 +4523,7 @@ snapshots:
   socks-proxy-agent@8.0.3:
     dependencies:
       agent-base: 7.1.1
-      debug: 4.3.4
+      debug: 4.3.5
       socks: 2.8.3
     transitivePeerDependencies:
       - supports-color
