@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.114
         version: 1.13.114
       '@book000/twitterts':
-        specifier: 0.62.84
-        version: 0.62.84(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5))
+        specifier: 0.62.88
+        version: 0.62.88(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5))
       '@types/node':
         specifier: 20.14.2
         version: 20.14.2
@@ -81,14 +81,11 @@ packages:
       eslint: 9.4.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.111':
-    resolution: {integrity: sha512-dS3+kFCSCM5KINMOSc9fw1iKcJJTZ1dYgxx+xWP9mxtzXT8OzTPHsDQeK7ASUIZpiJBXFRRmD0to1N3ozfIbDA==}
-
   '@book000/node-utils@1.13.114':
     resolution: {integrity: sha512-jmybR/6m4CLAILsT98r0yVsVo+A4jJlJQckSYm3Iq7BPxVJFQCQ+dtKHXdes4AuaXimXrSFc8j2KnoF9+cRzFA==}
 
-  '@book000/twitterts@0.62.84':
-    resolution: {integrity: sha512-2so7+cR6Az4N4ud4qH2W2e+e0Io3P+kF7cG1SQUJefRbm94JTSb5WMtJ0M5Lfm5HcVf/nU2GM4e8wuS5aYtLrg==}
+  '@book000/twitterts@0.62.88':
+    resolution: {integrity: sha512-adNvChbu7lk4sF2Pj4y/+rbaaTI5V+mFIJw1r1FZP4uVZwvNt9dp8mOM1bIeIlUWu1ldmtnj4L6tPEdgesnVWA==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -655,8 +652,8 @@ packages:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
-  chromium-bidi@0.5.19:
-    resolution: {integrity: sha512-UA6zL77b7RYCjJkZBsZ0wlvCTD+jTjllZ8f6wdO4buevXgTZYjV+XLB9CiEa2OuuTGGTLnI7eN9I60YxuALGQg==}
+  chromium-bidi@0.5.23:
+    resolution: {integrity: sha512-1o/gLU9wDqbN5nL2MtfjykjOuighGXc3/hnWueO1haiEoFgX8h5vbvcA4tgdQfjw1mkZ1OEF4x/+HVeqEX6NoA==}
     peerDependencies:
       devtools-protocol: '*'
 
@@ -1814,8 +1811,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@22.10.0:
-    resolution: {integrity: sha512-I54J4Vy4I07UHsgB1QSmuFoF7KNQjJWcvFBPhtY+ezMdBfwgGDr8dzYrJa11aPgP9kxIUHjhktcMmmfJkOAtTw==}
+  puppeteer-core@22.10.1:
+    resolution: {integrity: sha512-t98x55ohn6eioM/e1dmhy6bG9iuQ+mvpNXyr+UppB789uvNKKOvy9YnWpKp4mVyKxi9BGsceHAFuovQGqQKyCQ==}
     engines: {node: '>=18'}
 
   queue-microtask@1.2.3:
@@ -2398,8 +2395,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
 
 snapshots:
 
@@ -2437,18 +2434,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.111':
-    dependencies:
-      axios: 1.7.2
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.2.1
-      moment-timezone: 0.5.45
-      winston: 3.13.0
-      winston-daily-rotate-file: 5.0.0(winston@3.13.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.114':
     dependencies:
       axios: 1.7.2
@@ -2461,14 +2446,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.62.84(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5))':
+  '@book000/twitterts@0.62.88(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5))':
     dependencies:
-      '@book000/node-utils': 1.13.111
+      '@book000/node-utils': 1.13.114
       genson-js: 0.0.8
       json-schema-to-typescript: 14.0.5
       mysql2: 3.10.0
       otplib: 12.0.1
-      puppeteer-core: 22.10.0
+      puppeteer-core: 22.10.1
       twitter-d: 0.6.0
       typeorm: 0.3.20(mysql2@3.10.0)(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5))
       typeorm-naming-strategies: 4.1.0(typeorm@0.3.20(mysql2@3.10.0)(ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5)))
@@ -3064,12 +3049,12 @@ snapshots:
 
   chalk@5.3.0: {}
 
-  chromium-bidi@0.5.19(devtools-protocol@0.0.1286932):
+  chromium-bidi@0.5.23(devtools-protocol@0.0.1286932):
     dependencies:
       devtools-protocol: 0.0.1286932
       mitt: 3.0.1
       urlpattern-polyfill: 10.0.0
-      zod: 3.22.4
+      zod: 3.23.8
 
   ci-info@4.0.0: {}
 
@@ -4373,11 +4358,11 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@22.10.0:
+  puppeteer-core@22.10.1:
     dependencies:
       '@puppeteer/browsers': 2.2.3
-      chromium-bidi: 0.5.19(devtools-protocol@0.0.1286932)
-      debug: 4.3.4
+      chromium-bidi: 0.5.23(devtools-protocol@0.0.1286932)
+      debug: 4.3.5
       devtools-protocol: 0.0.1286932
       ws: 8.17.0
     transitivePeerDependencies:
@@ -5005,4 +4990,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.22.4: {}
+  zod@3.23.8: {}
