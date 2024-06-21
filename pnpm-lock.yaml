@@ -16,10 +16,10 @@ importers:
         version: 1.13.135
       '@book000/twitterts':
         specifier: 0.63.15
-        version: 0.63.15(ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5))
+        version: 0.63.15(ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5))
       '@types/node':
-        specifier: 20.14.6
-        version: 20.14.6
+        specifier: 20.14.7
+        version: 20.14.7
       discord.js:
         specifier: 14.15.3
         version: 14.15.3
@@ -396,8 +396,8 @@ packages:
   '@types/node@16.18.98':
     resolution: {integrity: sha512-fpiC20NvLpTLAzo3oVBKIqBGR6Fx/8oAK/SSf7G+fydnXMY1x4x9RZ6sBXhqKlCU21g2QapUsbLlhv3+a7wS+Q==}
 
-  '@types/node@20.14.6':
-    resolution: {integrity: sha512-JbA0XIJPL1IiNnU7PFxDXyfAwcwVVrOoqyzzyQTyMeVhBzkJVMSkC1LlVsRQ2lpqiY4n6Bb9oCS6lzDKVQxbZw==}
+  '@types/node@20.14.7':
+    resolution: {integrity: sha512-uTr2m2IbJJucF3KUxgnGOZvYbN0QgkGyWxG6973HCpMYFy2KfcgYuIwkJQMQkt1VbBMlvWRbpshFTLxnxCZjKQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2477,7 +2477,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.63.15(ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5))':
+  '@book000/twitterts@0.63.15(ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5))':
     dependencies:
       '@book000/node-utils': 1.13.126
       genson-js: 0.0.8
@@ -2486,8 +2486,8 @@ snapshots:
       otplib: 12.0.1
       puppeteer-core: 22.11.1
       twitter-d: 0.6.0
-      typeorm: 0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5))
-      typeorm-naming-strategies: 4.1.0(typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5)))
+      typeorm: 0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5))
+      typeorm-naming-strategies: 4.1.0(typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5)))
     transitivePeerDependencies:
       - '@google-cloud/spanner'
       - '@sap/hana-client'
@@ -2775,7 +2775,7 @@ snapshots:
 
   '@types/node@16.18.98': {}
 
-  '@types/node@20.14.6':
+  '@types/node@20.14.7':
     dependencies:
       undici-types: 5.26.5
 
@@ -2785,11 +2785,11 @@ snapshots:
 
   '@types/ws@8.5.10':
     dependencies:
-      '@types/node': 20.14.6
+      '@types/node': 20.14.7
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.14.6
+      '@types/node': 20.14.7
     optional: true
 
   '@typescript-eslint/eslint-plugin@7.13.1(@typescript-eslint/parser@7.13.1(eslint@9.5.0)(typescript@5.4.5))(eslint@9.5.0)(typescript@5.4.5)':
@@ -4742,14 +4742,14 @@ snapshots:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
-  ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5):
+  ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.14.6
+      '@types/node': 20.14.7
       acorn: 8.12.0
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -4823,11 +4823,11 @@ snapshots:
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
 
-  typeorm-naming-strategies@4.1.0(typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5))):
+  typeorm-naming-strategies@4.1.0(typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5))):
     dependencies:
-      typeorm: 0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5))
+      typeorm: 0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5))
 
-  typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.6)(typescript@5.4.5)):
+  typeorm@0.3.20(mysql2@3.10.1)(ts-node@10.9.2(@types/node@20.14.7)(typescript@5.4.5)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       app-root-path: 3.1.0
@@ -4846,7 +4846,7 @@ snapshots:
       yargs: 17.7.2
     optionalDependencies:
       mysql2: 3.10.1
-      ts-node: 10.9.2(@types/node@20.14.6)(typescript@5.4.5)
+      ts-node: 10.9.2(@types/node@20.14.7)(typescript@5.4.5)
     transitivePeerDependencies:
       - supports-color
 
