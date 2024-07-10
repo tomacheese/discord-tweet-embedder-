@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.166
         version: 1.13.166
       '@book000/twitterts':
-        specifier: 0.64.30
-        version: 0.64.30(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.4.5))
+        specifier: 0.64.31
+        version: 0.64.31(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.4.5))
       '@types/node':
         specifier: 20.14.10
         version: 20.14.10
@@ -84,8 +84,8 @@ packages:
   '@book000/node-utils@1.13.166':
     resolution: {integrity: sha512-R5m3XFOXvr6r8O0GRDU0NtWIBzIBO01HWe9vKAhZBqiST4thKFXBvF/S/QpMQCoPeCFvT41xiOmj+aujhr9taQ==}
 
-  '@book000/twitterts@0.64.30':
-    resolution: {integrity: sha512-ahvCTLI93Dim7XhPywXNxBI+IoFWew2Y7vbx7DM5Pz91uao2TAUox2qinhjbFGhFCuU0SKkoxH4RYdzkw6Sexw==}
+  '@book000/twitterts@0.64.31':
+    resolution: {integrity: sha512-0Ae65Og8YqGPmimo4zNQkwQjMp7Bx0cRUcK0UHparSRy7sH+ErWaM1n71+aI6uGy/85hndOH0/AGVmu1EubCHg==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2451,7 +2451,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.64.30(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.4.5))':
+  '@book000/twitterts@0.64.31(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.4.5))':
     dependencies:
       '@book000/node-utils': 1.13.166
       genson-js: 0.0.8
@@ -2504,7 +2504,7 @@ snapshots:
       discord-api-types: 0.37.83
       fast-deep-equal: 3.1.3
       ts-mixer: 6.0.4
-      tslib: 2.6.2
+      tslib: 2.6.3
 
   '@discordjs/collection@1.5.3': {}
 
@@ -2523,7 +2523,7 @@ snapshots:
       '@vladfrangu/async_event_emitter': 2.4.1
       discord-api-types: 0.37.83
       magic-bytes.js: 1.10.0
-      tslib: 2.6.2
+      tslib: 2.6.3
       undici: 6.13.0
 
   '@discordjs/util@1.1.0': {}
@@ -2537,7 +2537,7 @@ snapshots:
       '@types/ws': 8.5.10
       '@vladfrangu/async_event_emitter': 2.4.1
       discord-api-types: 0.37.83
-      tslib: 2.6.2
+      tslib: 2.6.3
       ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
