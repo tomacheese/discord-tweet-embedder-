@@ -12,8 +12,8 @@ importers:
         specifier: 1.7.17
         version: 1.7.17(eslint-config-standard@17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.4.5))(eslint@9.6.0))(eslint-plugin-n@17.9.0(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@9.6.0))(eslint@9.6.0))(eslint@9.6.0)(typescript@5.4.5)
       '@book000/node-utils':
-        specifier: 1.13.166
-        version: 1.13.166
+        specifier: 1.13.168
+        version: 1.13.168
       '@book000/twitterts':
         specifier: 0.64.32
         version: 0.64.32(ts-node@10.9.2(@types/node@20.14.10)(typescript@5.4.5))
@@ -83,6 +83,9 @@ packages:
 
   '@book000/node-utils@1.13.166':
     resolution: {integrity: sha512-R5m3XFOXvr6r8O0GRDU0NtWIBzIBO01HWe9vKAhZBqiST4thKFXBvF/S/QpMQCoPeCFvT41xiOmj+aujhr9taQ==}
+
+  '@book000/node-utils@1.13.168':
+    resolution: {integrity: sha512-So5oRd3rhNutpUFR5a7zuqMkMVdKuJTo5HJbv8SsKsbM387+MugPYhLynekrggxSRLbb8PfeCIIxpB7u0YtoBQ==}
 
   '@book000/twitterts@0.64.32':
     resolution: {integrity: sha512-x9rFg17yK2ZSwTppLLkiZhmfJmLQusA99HKK96cLNjIE+tYwLvDF2N0gc44TTpdRSjetMqIywTzTHYNwemqXZg==}
@@ -2339,6 +2342,10 @@ packages:
     resolution: {integrity: sha512-rwidmA1w3SE4j0E5MuIufFhyJPBDG7Nu71RkZor1p2+qHvJSZ9GYDA81AyleQcZbh/+V6HjeBdfnTZJm9rSeQQ==}
     engines: {node: '>= 12.0.0'}
 
+  winston@3.13.1:
+    resolution: {integrity: sha512-SvZit7VFNvXRzbqGHsv5KSmgbEYR5EiQfDAL9gxYkRqa934Hnk++zze0wANKtMHcy/gI4W/3xmSDwlhf865WGw==}
+    engines: {node: '>= 12.0.0'}
+
   word-wrap@1.2.5:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
@@ -2448,6 +2455,18 @@ snapshots:
       moment-timezone: 0.5.45
       winston: 3.13.0
       winston-daily-rotate-file: 5.0.0(winston@3.13.0)
+    transitivePeerDependencies:
+      - debug
+
+  '@book000/node-utils@1.13.168':
+    dependencies:
+      axios: 1.7.2
+      cycle: 1.0.3
+      form-data: 4.0.0
+      jsonc-parser: 3.3.1
+      moment-timezone: 0.5.45
+      winston: 3.13.1
+      winston-daily-rotate-file: 5.0.0(winston@3.13.1)
     transitivePeerDependencies:
       - debug
 
@@ -4924,6 +4943,14 @@ snapshots:
       winston: 3.13.0
       winston-transport: 4.7.0
 
+  winston-daily-rotate-file@5.0.0(winston@3.13.1):
+    dependencies:
+      file-stream-rotator: 0.6.1
+      object-hash: 3.0.0
+      triple-beam: 1.4.1
+      winston: 3.13.1
+      winston-transport: 4.7.0
+
   winston-transport@4.7.0:
     dependencies:
       logform: 2.6.0
@@ -4931,6 +4958,20 @@ snapshots:
       triple-beam: 1.4.1
 
   winston@3.13.0:
+    dependencies:
+      '@colors/colors': 1.6.0
+      '@dabh/diagnostics': 2.0.3
+      async: 3.2.5
+      is-stream: 2.0.1
+      logform: 2.6.0
+      one-time: 1.0.0
+      readable-stream: 3.6.2
+      safe-stable-stringify: 2.4.3
+      stack-trace: 0.0.10
+      triple-beam: 1.4.1
+      winston-transport: 4.7.0
+
+  winston@3.13.1:
     dependencies:
       '@colors/colors': 1.6.0
       '@dabh/diagnostics': 2.0.3
