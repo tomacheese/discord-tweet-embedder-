@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.179
         version: 1.13.179
       '@book000/twitterts':
-        specifier: 0.64.59
-        version: 0.64.59(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.4.5))
+        specifier: 0.64.63
+        version: 0.64.63(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.4.5))
       '@types/node':
         specifier: 20.14.11
         version: 20.14.11
@@ -81,14 +81,11 @@ packages:
       eslint: 9.7.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.178':
-    resolution: {integrity: sha512-ZX+AEo0sXcjPk0/KsR4c/67B/TOJKY/DA2YaDcd11Ln38GeiNqPnnYcAS+iJpwJSg8lE+oAHztPt6UJPkZoTeA==}
-
   '@book000/node-utils@1.13.179':
     resolution: {integrity: sha512-9kduXVu4Wjb4lDMRVRWchc8evEET8/lmNX7mUrflDAIUUSiLtAW6LJyxAcRLQgBRew5a6N81aT56i1BTrS05bQ==}
 
-  '@book000/twitterts@0.64.59':
-    resolution: {integrity: sha512-10PVa2oEf6ZLQL/WFe135yEFsIFWhnxwkBW08JwlfE7/3Sw9JgRbizDglW5NIgAmIh+7WBYjayJYuJ7gpm9L1w==}
+  '@book000/twitterts@0.64.63':
+    resolution: {integrity: sha512-whAYP0M84pUOcdgxsaTSduK2Vct/UOGrQDJFrXYL1AFblcsGx6DvRNO53Q4wEHvGbIZLRUH/l6oDhaXevl36qg==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2422,18 +2419,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.178':
-    dependencies:
-      axios: 1.7.2
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.5.45
-      winston: 3.13.1
-      winston-daily-rotate-file: 5.0.0(winston@3.13.1)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.179':
     dependencies:
       axios: 1.7.2
@@ -2446,9 +2431,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.64.59(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.4.5))':
+  '@book000/twitterts@0.64.63(ts-node@10.9.2(@types/node@20.14.11)(typescript@5.4.5))':
     dependencies:
-      '@book000/node-utils': 1.13.178
+      '@book000/node-utils': 1.13.179
       genson-js: 0.0.8
       json-schema-to-typescript: 14.1.0
       mysql2: 3.10.3
