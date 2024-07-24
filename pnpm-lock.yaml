@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.188
         version: 1.13.188
       '@book000/twitterts':
-        specifier: 0.64.74
-        version: 0.64.74(ts-node@10.9.2(@types/node@20.14.12)(typescript@5.4.5))
+        specifier: 0.64.79
+        version: 0.64.79(ts-node@10.9.2(@types/node@20.14.12)(typescript@5.4.5))
       '@types/node':
         specifier: 20.14.12
         version: 20.14.12
@@ -81,14 +81,14 @@ packages:
       eslint: 9.7.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.187':
-    resolution: {integrity: sha512-3SbZtoK/bfhxe711ot7WduQqCgef+DFG8neZ/agsnDLzIVjkIyPYpVV89yLsOJ72QUkyx9gGQlSYb3J+1mCAsA==}
-
   '@book000/node-utils@1.13.188':
     resolution: {integrity: sha512-ml/0Ucd5jx9nZfKh39wvkhTuHsylYUsElD3SVtnIIj/DV3UA58I13SaH8iZSlMnZcnQMfZJeaGWRgUBbqQrXbA==}
 
-  '@book000/twitterts@0.64.74':
-    resolution: {integrity: sha512-2rnpC1gpUXrq93o4CK/bhNpnPBqhgaTzoD403BO7/md5KumFLQOTqaO6sRc4HjVhg8Hj46XmlzWa6rXprCy7pQ==}
+  '@book000/node-utils@1.13.189':
+    resolution: {integrity: sha512-Gmm5MHcNGgvo7EWcTKqVHdZYx7hHFEis/79Sf2W32g1sutLUBqnqivTydvqz1+MUu/xIV3utIY1sjOAk5vqk8Q==}
+
+  '@book000/twitterts@0.64.79':
+    resolution: {integrity: sha512-izC53qzxOoL+rvS+J4ouEEEDfc1Npk3Qb5xSs8jBYJL0YvSq5gb5hZtIS4RYCNzDWIvs1xOU7SefiZ0iZvqF5Q==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2422,18 +2422,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.187':
-    dependencies:
-      axios: 1.7.2
-      cycle: 1.0.3
-      form-data: 4.0.0
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.5.45
-      winston: 3.13.1
-      winston-daily-rotate-file: 5.0.0(winston@3.13.1)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.188':
     dependencies:
       axios: 1.7.2
@@ -2446,9 +2434,21 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.64.74(ts-node@10.9.2(@types/node@20.14.12)(typescript@5.4.5))':
+  '@book000/node-utils@1.13.189':
     dependencies:
-      '@book000/node-utils': 1.13.187
+      axios: 1.7.2
+      cycle: 1.0.3
+      form-data: 4.0.0
+      jsonc-parser: 3.3.1
+      moment-timezone: 0.5.45
+      winston: 3.13.1
+      winston-daily-rotate-file: 5.0.0(winston@3.13.1)
+    transitivePeerDependencies:
+      - debug
+
+  '@book000/twitterts@0.64.79(ts-node@10.9.2(@types/node@20.14.12)(typescript@5.4.5))':
+    dependencies:
+      '@book000/node-utils': 1.13.189
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.0
       mysql2: 3.10.3
