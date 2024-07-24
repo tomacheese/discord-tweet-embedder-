@@ -12,8 +12,8 @@ importers:
         specifier: 1.7.23
         version: 1.7.23(eslint-config-standard@17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.17.0(eslint@9.7.0)(typescript@5.4.5))(eslint@9.7.0))(eslint-plugin-n@17.9.0(eslint@9.7.0))(eslint-plugin-promise@6.6.0(eslint@9.7.0))(eslint@9.7.0))(eslint@9.7.0)(typescript@5.4.5)
       '@book000/node-utils':
-        specifier: 1.13.186
-        version: 1.13.186
+        specifier: 1.13.188
+        version: 1.13.188
       '@book000/twitterts':
         specifier: 0.64.74
         version: 0.64.74(ts-node@10.9.2(@types/node@20.14.12)(typescript@5.4.5))
@@ -81,11 +81,11 @@ packages:
       eslint: 9.7.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.186':
-    resolution: {integrity: sha512-pggXpIIYvEYXGr5Wcb+gOfxl6lVMdGCBfiuu0MkMTbZA/t+l9aUJ/KASbusajgdC86IqtrtnvmJzUOqCm6BDdg==}
-
   '@book000/node-utils@1.13.187':
     resolution: {integrity: sha512-3SbZtoK/bfhxe711ot7WduQqCgef+DFG8neZ/agsnDLzIVjkIyPYpVV89yLsOJ72QUkyx9gGQlSYb3J+1mCAsA==}
+
+  '@book000/node-utils@1.13.188':
+    resolution: {integrity: sha512-ml/0Ucd5jx9nZfKh39wvkhTuHsylYUsElD3SVtnIIj/DV3UA58I13SaH8iZSlMnZcnQMfZJeaGWRgUBbqQrXbA==}
 
   '@book000/twitterts@0.64.74':
     resolution: {integrity: sha512-2rnpC1gpUXrq93o4CK/bhNpnPBqhgaTzoD403BO7/md5KumFLQOTqaO6sRc4HjVhg8Hj46XmlzWa6rXprCy7pQ==}
@@ -2422,7 +2422,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.186':
+  '@book000/node-utils@1.13.187':
     dependencies:
       axios: 1.7.2
       cycle: 1.0.3
@@ -2434,7 +2434,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/node-utils@1.13.187':
+  '@book000/node-utils@1.13.188':
     dependencies:
       axios: 1.7.2
       cycle: 1.0.3
