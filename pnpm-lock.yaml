@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.245
         version: 1.13.245
       '@book000/twitterts':
-        specifier: 0.69.81
-        version: 0.69.81
+        specifier: 0.69.82
+        version: 0.69.82
       '@types/node':
         specifier: 20.16.5
         version: 20.16.5
@@ -84,8 +84,8 @@ packages:
   '@book000/node-utils@1.13.245':
     resolution: {integrity: sha512-ms7ZjA4toILEcOoNH9r0yT14ofhybdgvc6JP5WhbnnclaAaXdOxk/WyaQFsrXnhuiiWBc8nzZfTPFGC+uCTvHQ==}
 
-  '@book000/twitterts@0.69.81':
-    resolution: {integrity: sha512-G3n0jDOl4ewTH9aiHlruoqOzph34pF6Mud2Km1e+JiLrtIJyLOfXlkYwvLbxJyAsdCd4heDF6Vme74BNYdJtlw==}
+  '@book000/twitterts@0.69.82':
+    resolution: {integrity: sha512-OKF2RWPsrFyL2X1oFUaFRyZ/tO/rkzhYt8uYidXFFPsA9vsV1EvxBgVin8FAcu6gtH0nOauhHuw+MdHWxU2BPg==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1451,9 +1451,9 @@ packages:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
 
-  lru-cache@8.0.5:
-    resolution: {integrity: sha512-MhWWlVnuab1RG5/zMRRcVGXZLCXrZTgfwMikgzCegsPnG62yDQo5JnqKkrK4jO5iKqDAZGItAqN5CtKBCBWRUA==}
-    engines: {node: '>=16.14'}
+  lru.min@1.1.0:
+    resolution: {integrity: sha512-86xXMB6DiuKrTqkE/lRL0drlNh568awttBPJ7D66fzDHpy6NC5r3N+Ly/lKCS2zjmeGyvFDx670z0cD0PVBwGA==}
+    engines: {bun: '>=1.0.0', deno: '>=1.30.0', node: '>=8.0.0'}
 
   magic-bytes.js@1.10.0:
     resolution: {integrity: sha512-/k20Lg2q8LE5xiaaSkMXk4sfvI+9EGEykFS4b0CHHGWqDYU0bGUFSwchNOMA56D7TCs9GwVTkqe9als1/ns8UQ==}
@@ -1507,8 +1507,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  mysql2@3.11.1:
-    resolution: {integrity: sha512-Oc8Zffd0gpIJnJ/NOMp6IiiJJDdWc7nmWpS+UE3K9feTpYia8XkbgL6EaOJYz52f6+2pAoC0eAQqUzal4lnNGQ==}
+  mysql2@3.11.2:
+    resolution: {integrity: sha512-3jhjAk4NHs3rcKjOiFTqmU76kdib/KDOC+lshrYa76QWkcfF1GbYGK4d5PqPljVmIAc0ChozCRmeYIlNp5bz5w==}
     engines: {node: '>= 8.0'}
 
   named-placeholders@1.1.3:
@@ -2212,12 +2212,12 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.69.81':
+  '@book000/twitterts@0.69.82':
     dependencies:
       '@book000/node-utils': 1.13.245
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.2
-      mysql2: 3.11.1
+      mysql2: 3.11.2
       otplib: 12.0.1
       puppeteer-core: 23.3.0
       twitter-d: 0.6.0
@@ -3719,7 +3719,7 @@ snapshots:
 
   lru-cache@7.18.3: {}
 
-  lru-cache@8.0.5: {}
+  lru.min@1.1.0: {}
 
   magic-bytes.js@1.10.0: {}
 
@@ -3762,14 +3762,14 @@ snapshots:
 
   ms@2.1.3: {}
 
-  mysql2@3.11.1:
+  mysql2@3.11.2:
     dependencies:
       aws-ssl-profiles: 1.1.2
       denque: 2.1.0
       generate-function: 2.3.1
       iconv-lite: 0.6.3
       long: 5.2.3
-      lru-cache: 8.0.5
+      lru.min: 1.1.0
       named-placeholders: 1.1.3
       seq-queue: 0.0.5
       sqlstring: 2.3.3
