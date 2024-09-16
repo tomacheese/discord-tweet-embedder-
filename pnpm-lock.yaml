@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.249
         version: 1.13.249
       '@book000/twitterts':
-        specifier: 0.69.90
-        version: 0.69.90
+        specifier: 0.69.91
+        version: 0.69.91
       '@types/node':
         specifier: 20.16.5
         version: 20.16.5
@@ -84,8 +84,8 @@ packages:
   '@book000/node-utils@1.13.249':
     resolution: {integrity: sha512-S6tzIWGEBQjzO0ZjsrE8Bg3sYAzV0QSEI7sl/3AWbUGOKvbYpIrE9Be+o1mQq1x55gvnJRF9Mhv/JYICp/1J3Q==}
 
-  '@book000/twitterts@0.69.90':
-    resolution: {integrity: sha512-3v6BeISsQFU05nOtOoLZcFYHg1jtfTCLlcN++WyAripD2/fVkrJb7ULt1jpMRLrmnDTgJdvFS5rN1H/oKpcQCQ==}
+  '@book000/twitterts@0.69.91':
+    resolution: {integrity: sha512-cf5RRyi6BMup5+y2H+5JXvnB10EFhrx0ewA1tpr1PxW5FY+MMEbQ7nGeq9wRbgVtUUKAAXntnajo70TD4ETyyA==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1507,8 +1507,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  mysql2@3.11.2:
-    resolution: {integrity: sha512-3jhjAk4NHs3rcKjOiFTqmU76kdib/KDOC+lshrYa76QWkcfF1GbYGK4d5PqPljVmIAc0ChozCRmeYIlNp5bz5w==}
+  mysql2@3.11.3:
+    resolution: {integrity: sha512-Qpu2ADfbKzyLdwC/5d4W7+5Yz7yBzCU05YWt5npWzACST37wJsB23wgOSo00qi043urkiRwXtEvJc9UnuLX/MQ==}
     engines: {node: '>= 8.0'}
 
   named-placeholders@1.1.3:
@@ -2212,12 +2212,12 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.69.90':
+  '@book000/twitterts@0.69.91':
     dependencies:
       '@book000/node-utils': 1.13.249
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.2
-      mysql2: 3.11.2
+      mysql2: 3.11.3
       otplib: 12.0.1
       puppeteer-core: 23.3.0
       twitter-d: 0.6.0
@@ -3762,7 +3762,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  mysql2@3.11.2:
+  mysql2@3.11.3:
     dependencies:
       aws-ssl-profiles: 1.1.2
       denque: 2.1.0
