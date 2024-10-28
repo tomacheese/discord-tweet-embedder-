@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.318
         version: 1.13.318
       '@book000/twitterts':
-        specifier: 0.70.41
-        version: 0.70.41
+        specifier: 0.70.45
+        version: 0.70.45
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -81,14 +81,11 @@ packages:
       eslint: 9.13.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.316':
-    resolution: {integrity: sha512-UN2hhwV3bOv1BdHWi5y30k+4bsyEUC9uDs6u5Z2y5cgnQmX4zFTDV2uO0AXVVEhGGbFxEjBN5G1LoFv0ietsQg==}
-
   '@book000/node-utils@1.13.318':
     resolution: {integrity: sha512-sKc719WE/x0FXglPeZpZ1YzkS82qFCLlyB/Y9jr19y0+fzTHFBgCCPMd3xy/P8EXZ4Zv/nN1m1jQ1Z1muP85Bg==}
 
-  '@book000/twitterts@0.70.41':
-    resolution: {integrity: sha512-4KZ70XAhjRlzfqfe9CXLNNSKTvOW/KFmqRdJGZLLbE1Z3E90mAQLZgAQzfYdLvW7SW/CkGbdq/1Cr7iQDp+xbw==}
+  '@book000/twitterts@0.70.45':
+    resolution: {integrity: sha512-Pqp1Il9uadntYF0B6dUY3HWIEykwUZ/UjfBc2YcW2gJeKooySblrv0xrLq5FbV076V8OgA5LxldXdPufkIzoXQ==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1727,8 +1724,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  puppeteer-core@23.6.0:
-    resolution: {integrity: sha512-se1bhgUpR9C529SgHGr/eyT92mYyQPAhA2S9pGtGrVG2xob9qE6Pbp7TlqiSPlnnY1lINqhn6/67EwkdzOmKqQ==}
+  puppeteer-core@23.6.1:
+    resolution: {integrity: sha512-DoNLAzQfGklPauEn33N4h9cM9GubJSINEn+AUMwAXwW159Y9JLk5y34Jsbv4c7kG8P0puOYWV9leu2siMZ/QpQ==}
     engines: {node: '>=18'}
 
   queue-microtask@1.2.3:
@@ -2256,18 +2253,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.316':
-    dependencies:
-      axios: 1.7.7
-      cycle: 1.0.3
-      form-data: 4.0.1
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.5.46
-      winston: 3.15.0
-      winston-daily-rotate-file: 5.0.0(winston@3.15.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.318':
     dependencies:
       axios: 1.7.7
@@ -2280,14 +2265,14 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.70.41':
+  '@book000/twitterts@0.70.45':
     dependencies:
-      '@book000/node-utils': 1.13.316
+      '@book000/node-utils': 1.13.318
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.2
       mysql2: 3.11.3
       otplib: 12.0.1
-      puppeteer-core: 23.6.0
+      puppeteer-core: 23.6.1
       twitter-d: 0.6.0
       ulid: 2.3.0
     transitivePeerDependencies:
@@ -4056,7 +4041,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  puppeteer-core@23.6.0:
+  puppeteer-core@23.6.1:
     dependencies:
       '@puppeteer/browsers': 2.4.0
       chromium-bidi: 0.8.0(devtools-protocol@0.0.1354347)
