@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.330
         version: 1.13.330
       '@book000/twitterts':
-        specifier: 0.70.59
-        version: 0.70.59
+        specifier: 0.70.62
+        version: 0.70.62
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -77,14 +77,11 @@ packages:
       eslint: 9.14.0
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.327':
-    resolution: {integrity: sha512-e/VGDWKfuJvpc+ECvXR1en6CgFbXvklgGRqFYGhT7y1wLfd5jsC7hAOXcJ4s3aL2NeyQfezsf+p56YuUO6vM+g==}
-
   '@book000/node-utils@1.13.330':
     resolution: {integrity: sha512-juFJDbSIAetQENbEV8rRZu2zx54/D0e3R+Kr1l1LWYn86UPQKfnxssVCMa8VM3X9W1gBENiU4weMJFSaP/k0LQ==}
 
-  '@book000/twitterts@0.70.59':
-    resolution: {integrity: sha512-yr46KuQxWB/arrrZp8QDTchzK6pOQKt3Pbf8YUzaODHV/uD19dgqAJpARw5Ke3ymapFV2I9tTsqotRlgVQbNFg==}
+  '@book000/twitterts@0.70.62':
+    resolution: {integrity: sha512-2JdnH1tcj/ce96FOwMvr4kxjEkXIrPYScUBI8mfgU279zlY3OXkHd/CDP5gyobE2hAeq3A6rVY9i155Jg9lRjw==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -2151,10 +2148,6 @@ packages:
     resolution: {integrity: sha512-qxSTKswC6llEMZKgCQdaWgDuMJQnhuvF5f2Nk3SNXc4byfQ+voo2mX1Px9dkNOuR8p0KAjfPG29PuYUSIb+vSA==}
     engines: {node: '>= 12.0.0'}
 
-  winston@3.15.0:
-    resolution: {integrity: sha512-RhruH2Cj0bV0WgNL+lOfoUBI4DVfdUNjVnJGVovWZmrcKtrFTTRzgXYK2O9cymSGjrERCtaAeHwMNnUWXlwZow==}
-    engines: {node: '>= 12.0.0'}
-
   winston@3.16.0:
     resolution: {integrity: sha512-xz7+cyGN5M+4CmmD4Npq1/4T+UZaz7HaeTlAruFUTjk79CNMq+P6H30vlE4z0qfqJ01VHYQwd7OZo03nYm/+lg==}
     engines: {node: '>= 12.0.0'}
@@ -2246,18 +2239,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.327':
-    dependencies:
-      axios: 1.7.7
-      cycle: 1.0.3
-      form-data: 4.0.1
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.5.46
-      winston: 3.15.0
-      winston-daily-rotate-file: 5.0.0(winston@3.15.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.330':
     dependencies:
       axios: 1.7.7
@@ -2270,9 +2251,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.70.59':
+  '@book000/twitterts@0.70.62':
     dependencies:
-      '@book000/node-utils': 1.13.327
+      '@book000/node-utils': 1.13.330
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.2
       mysql2: 3.11.3
@@ -4524,14 +4505,6 @@ snapshots:
     dependencies:
       isexe: 2.0.0
 
-  winston-daily-rotate-file@5.0.0(winston@3.15.0):
-    dependencies:
-      file-stream-rotator: 0.6.1
-      object-hash: 3.0.0
-      triple-beam: 1.4.1
-      winston: 3.15.0
-      winston-transport: 4.8.0
-
   winston-daily-rotate-file@5.0.0(winston@3.16.0):
     dependencies:
       file-stream-rotator: 0.6.1
@@ -4545,20 +4518,6 @@ snapshots:
       logform: 2.6.1
       readable-stream: 4.5.2
       triple-beam: 1.4.1
-
-  winston@3.15.0:
-    dependencies:
-      '@colors/colors': 1.6.0
-      '@dabh/diagnostics': 2.0.3
-      async: 3.2.6
-      is-stream: 2.0.1
-      logform: 2.6.1
-      one-time: 1.0.0
-      readable-stream: 3.6.2
-      safe-stable-stringify: 2.5.0
-      stack-trace: 0.0.10
-      triple-beam: 1.4.1
-      winston-transport: 4.8.0
 
   winston@3.16.0:
     dependencies:
