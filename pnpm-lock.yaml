@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.401
         version: 1.13.401
       '@book000/twitterts':
-        specifier: 0.71.108
-        version: 0.71.108
+        specifier: 0.71.109
+        version: 0.71.109
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -80,8 +80,8 @@ packages:
   '@book000/node-utils@1.13.401':
     resolution: {integrity: sha512-5LqkZmuNQ3YSlrRwgvlyhgK5cyn3fKOsiROrhkSbp4rodlLlTrzKaJVvrvvs9J1qT1MTsGsgWuKIf7XV6uNNhQ==}
 
-  '@book000/twitterts@0.71.108':
-    resolution: {integrity: sha512-AEN/z01/w8fCTAH5bOoBGVeMaIw6SOzJu0hr4MyCmMV9g+5z81R2XZ3uKOh2ILn03Fv5HUVnB+3Eyq9pWyOJVA==}
+  '@book000/twitterts@0.71.109':
+    resolution: {integrity: sha512-aG+NJSd2glXke5/ygjMOGVUdSwCq9tsB/jXbXCHYgrFQYJbF2dU5ebM8tQxvVm+9t2VORQRLqwUn/ER+Co6m8g==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1527,8 +1527,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  mysql2@3.11.5:
-    resolution: {integrity: sha512-0XFu8rUmFN9vC0ME36iBvCUObftiMHItrYFhlCRvFWbLgpNqtC4Br/NmZX1HNCszxT0GGy5QtP+k3Q3eCJPaYA==}
+  mysql2@3.12.0:
+    resolution: {integrity: sha512-C8fWhVysZoH63tJbX8d10IAoYCyXy4fdRFz2Ihrt9jtPILYynFEKUUzpp1U7qxzDc3tMbotvaBH+sl6bFnGZiw==}
     engines: {node: '>= 8.0'}
 
   named-placeholders@1.1.3:
@@ -2236,13 +2236,13 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.108':
+  '@book000/twitterts@0.71.109':
     dependencies:
       '@book000/node-utils': 1.13.401
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.3
       json-stable-stringify: 1.1.1
-      mysql2: 3.11.5
+      mysql2: 3.12.0
       otplib: 12.0.1
       puppeteer-core: 23.11.1
       twitter-d: 0.6.0
@@ -3801,7 +3801,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  mysql2@3.11.5:
+  mysql2@3.12.0:
     dependencies:
       aws-ssl-profiles: 1.1.2
       denque: 2.1.0
