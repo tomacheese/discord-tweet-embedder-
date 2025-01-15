@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.425
         version: 1.13.425
       '@book000/twitterts':
-        specifier: 0.71.151
-        version: 0.71.151
+        specifier: 0.71.152
+        version: 0.71.152
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -80,8 +80,8 @@ packages:
   '@book000/node-utils@1.13.425':
     resolution: {integrity: sha512-fbkQjpYQJlrWrbmDrCkvbIOLUEaLyksGD8OmSZB0882xwR7pOuwJP9luwXYqg8oDiPv+l3ZjwEVsM/n9zw9M6g==}
 
-  '@book000/twitterts@0.71.151':
-    resolution: {integrity: sha512-P7y0Sik+O+PG3wZqS8V+lPS2gyelB1iUwnf82kyajJ11oFDD09ltNYRNKSyHMhTBplzn0hx3J6U7QSwuu8DcgA==}
+  '@book000/twitterts@0.71.152':
+    resolution: {integrity: sha512-Zv3GnDWu2uw9i+qWbCcbPMj2h1EaeIbDPiEWycSnGnhsdsVxzGfecIBbW/sR9305VX89QmjybMWW2sMNq4C9Ag==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1399,8 +1399,8 @@ packages:
   json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
 
-  json-schema-to-typescript@15.0.3:
-    resolution: {integrity: sha512-iOKdzTUWEVM4nlxpFudFsWyUiu/Jakkga4OZPEt7CGoSEsAsUgdOZqR6pcgx2STBek9Gm4hcarJpXSzIvZ/hKA==}
+  json-schema-to-typescript@15.0.4:
+    resolution: {integrity: sha512-Su9oK8DR4xCmDsLlyvadkXzX6+GGXJpbhwoLtOGArAG61dvbW4YQmSEno2y66ahpIdmLMg6YUf/QHLgiwvkrHQ==}
     engines: {node: '>=16.0.0'}
     hasBin: true
 
@@ -2246,11 +2246,11 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.151':
+  '@book000/twitterts@0.71.152':
     dependencies:
       '@book000/node-utils': 1.13.425
       genson-js: 0.0.8
-      json-schema-to-typescript: 15.0.3
+      json-schema-to-typescript: 15.0.4
       json-stable-stringify: 1.2.1
       mysql2: 3.12.0
       otplib: 12.0.1
@@ -3705,7 +3705,7 @@ snapshots:
 
   json-parse-even-better-errors@2.3.1: {}
 
-  json-schema-to-typescript@15.0.3:
+  json-schema-to-typescript@15.0.4:
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.7.3
       '@types/json-schema': 7.0.15
