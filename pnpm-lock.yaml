@@ -15,8 +15,8 @@ importers:
         specifier: 1.13.468
         version: 1.13.468
       '@book000/twitterts':
-        specifier: 0.71.224
-        version: 0.71.224
+        specifier: 0.71.225
+        version: 0.71.225
       '@types/node':
         specifier: 20.16.11
         version: 20.16.11
@@ -77,14 +77,11 @@ packages:
       eslint: 9.20.1
       eslint-config-standard: 17.1.0
 
-  '@book000/node-utils@1.13.467':
-    resolution: {integrity: sha512-IeF7THoP0yP8mfeaDWRaXDgi48WUToDCpqrs/79zqbARDS18B+oypiqo7gkrxwaVGpDEXsRB7Zyz5srTQvzvHw==}
-
   '@book000/node-utils@1.13.468':
     resolution: {integrity: sha512-c3KqRLWwtp1XQh0VE+FS7qTxAmKPpYqpJ+aeRSMCBLHKJkTan/kBYAxwjh5drYWEl9lMaRQwpBP26TSUy7U5ww==}
 
-  '@book000/twitterts@0.71.224':
-    resolution: {integrity: sha512-b9lkgZf9IVubnoHgv+i/bk1jkJdQ2jD8W0wOSHmY+5lfZOGMmit6z2m565B0Mc18P14c+oFSD0RR5aqyD4ap7g==}
+  '@book000/twitterts@0.71.225':
+    resolution: {integrity: sha512-8vIUzc7GOYNRxHrOrn3Nx4O0UJj6PuL5eBP9T/D9C9+GYQUzepRgqGG4woGoiHuMnlFHGak90zD+Y/KYbxeiyA==}
 
   '@colors/colors@1.6.0':
     resolution: {integrity: sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==}
@@ -1089,10 +1086,6 @@ packages:
   for-each@0.3.4:
     resolution: {integrity: sha512-kKaIINnFpzW6ffJNDjjyjrk21BkDx38c0xa/klsT8VzLCaMEefv4ZTacrcVR4DmgTeBra++jMDAfS/tS799YDw==}
     engines: {node: '>= 0.4'}
-
-  form-data@4.0.1:
-    resolution: {integrity: sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==}
-    engines: {node: '>= 6'}
 
   form-data@4.0.2:
     resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
@@ -2246,18 +2239,6 @@ snapshots:
       - supports-color
       - typescript
 
-  '@book000/node-utils@1.13.467':
-    dependencies:
-      axios: 1.7.9
-      cycle: 1.0.3
-      form-data: 4.0.1
-      jsonc-parser: 3.3.1
-      moment-timezone: 0.5.47
-      winston: 3.17.0
-      winston-daily-rotate-file: 5.0.0(winston@3.17.0)
-    transitivePeerDependencies:
-      - debug
-
   '@book000/node-utils@1.13.468':
     dependencies:
       axios: 1.7.9
@@ -2270,9 +2251,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@book000/twitterts@0.71.224':
+  '@book000/twitterts@0.71.225':
     dependencies:
-      '@book000/node-utils': 1.13.467
+      '@book000/node-utils': 1.13.468
       genson-js: 0.0.8
       json-schema-to-typescript: 15.0.4
       json-stable-stringify: 1.2.1
@@ -3411,12 +3392,6 @@ snapshots:
   for-each@0.3.4:
     dependencies:
       is-callable: 1.2.7
-
-  form-data@4.0.1:
-    dependencies:
-      asynckit: 0.4.0
-      combined-stream: 1.0.8
-      mime-types: 2.1.35
 
   form-data@4.0.2:
     dependencies:
